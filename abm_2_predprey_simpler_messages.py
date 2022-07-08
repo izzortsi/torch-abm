@@ -15,10 +15,10 @@ import sys
 # RES_Y = 512
 RES_X = 1024
 RES_Y = 1024
-DT = 0.2
+DT = 0.08
 STR_LENGTH = 3
-N_PREDATORS = 100
-N_PREYS = 500
+N_PREDATORS = 64
+N_PREYS = 256
 RADIUS_1 = 8
 RADIUS_2 = 64
 rng = np.random.default_rng()
@@ -102,7 +102,7 @@ class Predator(Agent):
         for prey in self.env.preys:
             distance = DISTANCE(self, prey)
 
-            if RADIUS_1 < distance <= RADIUS_2*((self.eaten+2)//2):
+            if RADIUS_1 < distance <= RADIUS_2+2*self.eaten:
 
                 self.neighbors["preys"].append(prey)
                 self.local_readings.append((prey, distance))
@@ -374,5 +374,5 @@ while not quit_loop:
         quit_loop = True
         time.sleep(0.5)
         sys.exit()
-    time.sleep(0.05)
+    time.sleep(0.01)
 # %%
