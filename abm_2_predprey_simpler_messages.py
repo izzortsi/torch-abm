@@ -11,22 +11,19 @@ import sys
 
 
 
-# RES_X = 512
-# RES_Y = 512
-RES_X = 1024
-RES_Y = 1024
+RES_X = 512
+RES_Y = 512
+# RES_X = 1024
+# RES_Y = 1024
 DT = 0.08
 STR_LENGTH = 3
-N_PREDATORS = 64
-N_PREYS = 256
-RADIUS_1 = 8
-RADIUS_2 = 64
+N_PREDATORS = RES_X//8
+N_PREYS = RES_X//2
+RADIUS_1 = RES_X//128
+RADIUS_2 = RES_X//32
 rng = np.random.default_rng()
 DISTANCE = lambda a1, a2: np.sqrt((a1.x - a2.x)**2 + (a1.y - a2.y)**2)
 # DISTANCE = lambda a1, a2: spd.cityblock(np.array([a1.x, a1.y]), np.array([a2.x, a2.y]))
-
-# %%
-
  
 class Agent(object):
     def __init__(self, env, id, phi = None, x=None, y=None, dx=0, dy=0):
@@ -276,7 +273,6 @@ class Environment(object):
             self.board[a.x, a.y] = np.array([255, 0, 0], dtype=np.uint8)
             a.update()
 
-# %%
 
 
 class MessageBoard(object):
@@ -292,8 +288,6 @@ class MessageBoard(object):
         for m in self.messages:
             print(m)
 
-
-# %%
 
 class PreyPredatorEnvironment(Environment):
     def __init__(self, num_predators, num_preys, str_length = STR_LENGTH):
@@ -318,7 +312,8 @@ class PreyPredatorEnvironment(Environment):
         self.board = np.zeros((RES_X, RES_Y, 3), dtype=np.uint8)
         for pred in self.predators:
             pred.update()
-            self.board[pred.x, pred.y] = np.array([255, int(min((N_PREDATORS/N_PREYS)*pred.eaten, 255)), int(min((N_PREDATORS/N_PREYS)*pred.eaten, 255))], dtype=np.uint8)
+            # self.board[pred.x, pred.y] = np.array([255, int(min((N_PREDATORS/N_PREYS)*pred.eaten, 255)), int(min((N_PREDATORS/N_PREYS)*pred.eaten, 255))], dtype=np.uint8)
+            self.board[pred.x, pred.y] = np.array([255, 0, 0], dtype=np.uint8)
             # print(self.message_board.messages)
         for prey in self.preys:
             prey.update()
@@ -329,7 +324,7 @@ class PreyPredatorEnvironment(Environment):
 
 pygame.init()
 screen = pygame.display.set_mode((RES_X, RES_Y), flags = 0)
-screen.fill(0)
+screen.fill([0, 0, 0])
 env = PreyPredatorEnvironment(N_PREDATORS, N_PREYS)
 
 quit_loop = False
@@ -353,8 +348,8 @@ while not quit_loop:
             sys.exit()
 
     im = env.board
-    xim = Image.fromarray(im)
-    xim.save(f"frames/frame{_iter:04d}.png")
+    xim = Image.fromarray(im, mode="RGB")
+    xim.save(f"frames/frame{_iter:04d}.jpg")
     # print(env.message_board.messages)
 
     pygame.surfarray.blit_array(screen, im)
