@@ -13,13 +13,15 @@ import sys
 
 RES_X = 512
 RES_Y = 512
-DT = 0.1
+DT = 0.01
 STR_LENGTH = 3
-N_PREDATORS = 100
+N_PREDATORS = 30
 N_PREYS = 200
-RADIUS_1 = 2
-RADIUS_2 = 12
+RADIUS_1 = 1
+RADIUS_2 = 3
 rng = np.random.default_rng()
+DISTANCE = lambda a1, a2: np.sqrt((a1.x - a2.x)**2 + (a1.y - a2.y)**2)
+# DISTANCE = lambda a1, a2: spd.cityblock(np.array([a1.x, a1.y]), np.array([a2.x, a2.y]))
 
 # %%
 
@@ -52,7 +54,7 @@ class Agent(object):
         for agent in self.env.agents:
             distance = np.sqrt((agent.x - self.x)**2 + (agent.y - self.y)**2)
             if agent is not self:
-                if distance <= RADIUS:
+                if distance <= (RADIUS_1 +RADIUS_2)//2:
                     self.neighbors.append(agent)
                     self.distances.append(distance)
         
@@ -87,16 +89,15 @@ class Predator(Agent):
         self.eaten = 0
         if phi is not None:
             self.phi = phi
-        # self.state = np.array([x, y, dx, dy, self.local_readings, self.message, self.neighbors, self.phi])
         self.state = np.array([self.x, self.y, self.dx, self.dy, self.local_readings, self.message, self.neighbors])
 
     def get_neighborhood(self):
         self.neighbors["preys"] = []
         self.local_readings = []    
         for prey in self.env.preys:
-            # distance = np.sqrt((prey.x - self.x)**2 - (prey.y - self.y)**2)
-            distance = spd.cityblock((self.x, self.y), (prey.x, prey.y))
-            print(distance)
+            distance = DISTANCE(self, prey)
+            # distance = spd.cityblock((self.x, self.y), (prey.x, prey.y))
+            # print(distance)
             if RADIUS_1 < distance <= RADIUS_2:
                 # print(1)
                 self.neighbors["preys"].append(prey)
@@ -110,8 +111,7 @@ class Predator(Agent):
         #         self.neighbors["predators"].append(pred)                
     
     def __repr__(self) -> str:
-        return "Predator: x = {}, y = {}, dx = {}, dy = {}".format(self.x, self.y, self.dx, self.dy)
-
+        return "Predator: x = ({}, {}), dx/dt = ({}, {}), eaten = {} ".format(self.x, self.y, self.dx, self.dy, self.eaten)
 
     def update(self):
         self.state = self.phi()
@@ -132,6 +132,7 @@ class Predator(Agent):
                 min_dist = total_inputs[i][-1]
                 min_index = i 
         try:
+            # print((np.array([total_inputs[min_index][1], total_inputs[min_index][2]]) - np.array([self.x, self.y]))*DT)
             self.dx, self.dy = (np.array([total_inputs[min_index][1], total_inputs[min_index][2]]) - np.array([self.x, self.y]))*DT
         except IndexError:
             self.dx = np.random.choice(list(range(-RES_X//8, RES_X//8)))*DT
@@ -139,10 +140,12 @@ class Predator(Agent):
         #messages are up to L sensorial inputs from the agent
         if len(self.local_readings) > 0:
             self.message = [prey for prey in list(rng.choice(self.local_readings, self.L))]
+            # print(self.message, len(self.message))
         else:
             self.message = []
-        # print(self.message)
-        self.env.message_board.messages + self.message
+        # print(self, self.message)
+        self.env.message_board.messages += self.message
+        
         #update state
         self.x = (self.x + int(self.dx)) % RES_X
         self.y = (self.y + int(self.dy)) % RES_Y
@@ -167,7 +170,7 @@ class Prey(Agent):
         self.neighbors["predators"] = []
         self.local_readings = []    
         for pred in self.env.predators:
-            distance = spd.cityblock((self.x, self.y), (pred.x, pred.y))
+            distance = DISTANCE(self, pred)
             if distance <= RADIUS_2:
                 self.neighbors["predators"].append(pred)
                 self.local_readings.append(np.array([pred, pred.x, pred.y, pred.dx, pred.dy, distance]))
@@ -177,7 +180,7 @@ class Prey(Agent):
         #         self.neighbors["predators"].append(pred)                
     
     def __repr__(self) -> str:
-        return "Prey: x = {}, y = {}, dx = {}, dy = {}".format(self.x, self.y, self.dx, self.dy)
+        return "Prey: x = ({}, {}), dx/dt = ({}, {})".format(self.x, self.y, self.dx, self.dy)
 
 
     def update(self):
@@ -186,25 +189,11 @@ class Prey(Agent):
     def phi(self):
 
         #update local sensorial input
-        self.get_neighborhood()
 
-        #get closest predator
 
-        min_dist = RES_Y*RES_X
-        min_index = 0
-        for i, reading in enumerate(self.local_readings):
-            if self.local_readings[i][-1] < min_dist:
-                min_dist = self.local_readings[i][-1]
-                min_index = i 
         
-        #run
-        # print(self.local_readings)
-        # print(min_index)
-        try:
-            self.dx, self.dy = (np.array([self.x, self.y]) - np.array([self.local_readings[min_index][1], self.local_readings[min_index][2]]))*DT
-        except IndexError:
-            self.dx = np.random.choice(list(range(-RES_X//8, RES_X//8)))*DT
-            self.dy = np.random.choice(list(range(-RES_Y//8, RES_Y//8)))*DT
+        self.dx = np.random.choice(list(range(-RES_X//8, RES_X//8)))*DT
+        self.dy = np.random.choice(list(range(-RES_Y//8, RES_Y//8)))*DT
 
         #update state
 
@@ -212,6 +201,31 @@ class Prey(Agent):
         self.y = (self.y + int(self.dy)) % RES_Y
 
         return np.array([self.x, self.y, self.dx, self.dy, self.local_readings, self.neighbors])
+
+def phi(self):
+    #update local sensorial input
+    self.get_neighborhood()
+    #get closest predator
+    min_dist = RES_Y*RES_X
+    min_index = 0
+    for i, reading in enumerate(self.local_readings):
+        if self.local_readings[i][-1] < min_dist:
+            min_dist = self.local_readings[i][-1]
+            min_index = i 
+    
+    #run
+    # print(self.local_readings)
+    # print(min_index)
+    try:
+        # print((np.array([self.x, self.y]) - np.array([self.local_readings[min_index][1], self.local_readings[min_index][2]]))*DT)
+        self.dx, self.dy = (np.array([self.x, self.y]) - np.array([self.local_readings[min_index][1], self.local_readings[min_index][2]]))*DT
+    except IndexError:
+        self.dx = np.random.choice(list(range(-RES_X//8, RES_X//8)))*DT
+        self.dy = np.random.choice(list(range(-RES_Y//8, RES_Y//8)))*DT
+    #update state
+    self.x = (self.x + int(self.dx)) % RES_X
+    self.y = (self.y + int(self.dy)) % RES_Y
+    return np.array([self.x, self.y, self.dx, self.dy, self.local_readings, self.neighbors])        
 
 
 class Environment(object):
@@ -251,21 +265,19 @@ class PreyPredatorEnvironment(Environment):
         self.board = np.zeros((RES_X, RES_Y, 3), dtype=np.uint8)
         for pred in self.predators:
             pred.update()
-            self.board[pred.x, pred.y] = np.array([255, 0, 0], dtype=np.uint8)
+            self.board[pred.x, pred.y] = np.array([255, int(min((N_PREDATORS/N_PREYS)*pred.eaten, 255)), int(min((N_PREDATORS/N_PREYS)*pred.eaten, 255))], dtype=np.uint8)
+            # print(self.message_board.messages)
         for prey in self.preys:
             prey.update()
             self.board[prey.x, prey.y] = np.array([0, 255, 0], dtype=np.uint8)
 
 # %%
-env = PreyPredatorEnvironment(N_PREDATORS, N_PREYS)
 
-# %%
-env.message_board.messages
-# %%
 
 pygame.init()
 screen = pygame.display.set_mode((RES_X, RES_Y), flags = 0)
 screen.fill(0)
+env = PreyPredatorEnvironment(N_PREDATORS, N_PREYS)
 
 
 
@@ -280,16 +292,26 @@ while not quit_loop:
     for event in pygame.event.get():
 
         if event.type == pygame.QUIT:
-            pygame.display.quit()
+            pygame.quit()
             quit_loop = True
+            sys.exit()
 
         if keys[pygame.K_ESCAPE]:            
-            pygame.display.quit()
+            pygame.quit()
             quit_loop = True
+            sys.exit()
 
     im = env.board
+    # print(env.message_board.messages)
 
     pygame.surfarray.blit_array(screen, im)
-    pygame.display.update()   
+    pygame.display.update()
+
+    if len(env.preys) == 0:
+        print("No preys left.")
+        pygame.quit()
+        quit_loop = True
+        time.sleep(0.5)
+        sys.exit()
     time.sleep(0.05)
 # %%
