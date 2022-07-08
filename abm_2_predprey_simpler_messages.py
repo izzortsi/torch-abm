@@ -11,14 +11,16 @@ import sys
 
 
 
-RES_X = 512
-RES_Y = 512
-DT = 0.1
+# RES_X = 512
+# RES_Y = 512
+RES_X = 1024
+RES_Y = 1024
+DT = 0.2
 STR_LENGTH = 3
-N_PREDATORS = 10
-N_PREYS = 100
-RADIUS_1 = 2
-RADIUS_2 = 20
+N_PREDATORS = 100
+N_PREYS = 500
+RADIUS_1 = 8
+RADIUS_2 = 64
 rng = np.random.default_rng()
 DISTANCE = lambda a1, a2: np.sqrt((a1.x - a2.x)**2 + (a1.y - a2.y)**2)
 # DISTANCE = lambda a1, a2: spd.cityblock(np.array([a1.x, a1.y]), np.array([a2.x, a2.y]))
@@ -147,7 +149,7 @@ class Predator(Agent):
             self.x = (self.x + int(self.dx)) % RES_X
             self.y = (self.y + int(self.dy)) % RES_Y
             if DISTANCE(self, closest_prey) < RADIUS_1:
-                print(closest_prey)
+                # print(closest_prey)
                 self.eaten += 1
                 self.env.preys.remove(closest_prey)
                 self.env.message_board.messages.remove(closest_prey)
