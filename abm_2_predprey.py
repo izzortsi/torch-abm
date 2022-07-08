@@ -1,4 +1,3 @@
-
 # %%
 
 import numpy as np
@@ -16,11 +15,10 @@ RES_X = 512
 RES_Y = 512
 DT = 0.1
 STR_LENGTH = 3
-N_PREDATORS = 30
-N_PREYS = 80
-# RADIUS = (RES_X*RES_Y)/(N_PREYS+N_PREDATORS)**2
-RADIUS = (RES_X*RES_Y)//(N_PREYS+N_PREDATORS)**2
-print(RADIUS)
+N_PREDATORS = 100
+N_PREYS = 200
+RADIUS_1 = 2
+RADIUS_2 = 12
 rng = np.random.default_rng()
 
 # %%
@@ -86,37 +84,37 @@ class Predator(Agent):
         self.neighbors = dict(predators = [], preys = [])
         self.local_readings = [np.array([prey, prey.x, prey.y, prey.dx, prey.dy]) for prey in self.neighbors["preys"]] 
         self.message = self.local_readings
+        self.eaten = 0
         if phi is not None:
             self.phi = phi
         # self.state = np.array([x, y, dx, dy, self.local_readings, self.message, self.neighbors, self.phi])
         self.state = np.array([self.x, self.y, self.dx, self.dy, self.local_readings, self.message, self.neighbors])
 
     def get_neighborhood(self):
-        # distance = np.sqrt((prey.x - self.x)**2 - (prey.y - self.y)**2)
         self.neighbors["preys"] = []
         self.local_readings = []    
         for prey in self.env.preys:
+            # distance = np.sqrt((prey.x - self.x)**2 - (prey.y - self.y)**2)
             distance = spd.cityblock((self.x, self.y), (prey.x, prey.y))
-            if distance <= RADIUS:
+            print(distance)
+            if RADIUS_1 < distance <= RADIUS_2:
+                # print(1)
                 self.neighbors["preys"].append(prey)
                 self.local_readings.append(np.array([prey, prey.x, prey.y, prey.dx, prey.dy, distance]))
+            elif distance <= RADIUS_1:
+                self.env.preys.remove(prey)
+                self.eaten += 1
 
         # for pred in self.env.pred:
         #     if np.sqrt((pred.x - self.x)**2 - (pred.y - self.y)**2) <= RADIUS:
         #         self.neighbors["predators"].append(pred)                
     
     def __repr__(self) -> str:
-        return "Agent: x = {}, y = {}, dx = {}, dy = {}".format(self.x, self.y, self.dx, self.dy)
+        return "Predator: x = {}, y = {}, dx = {}, dy = {}".format(self.x, self.y, self.dx, self.dy)
 
 
     def update(self):
-        self.state = self.phi(self.env)
-        self.x = self.state[0]
-        self.y = self.state[1]
-        self.dx = self.state[2]
-        self.dy = self.state[3]
-        self.message = self.state[4]
-        self.phi = self.state[5]
+        self.state = self.phi()
     
     def phi(self):
         
@@ -125,7 +123,7 @@ class Predator(Agent):
         #update local sensorial input
         self.get_neighborhood()
         #conjoint inputs
-        total_inputs = list(set(self.local_readings + list(board.messages)))
+        total_inputs = self.local_readings + board.messages
         #process messages
         min_dist = RES_Y*RES_X
         min_index = 0
@@ -133,77 +131,106 @@ class Predator(Agent):
             if total_inputs[i][-1] < min_dist:
                 min_dist = total_inputs[i][-1]
                 min_index = i 
-        self.dx, self.dy = (np.array([total_inputs[min_index][1], total_inputs[min_index][2]]) - np.array([self.x, self.y]))*DT
-
+        try:
+            self.dx, self.dy = (np.array([total_inputs[min_index][1], total_inputs[min_index][2]]) - np.array([self.x, self.y]))*DT
+        except IndexError:
+            self.dx = np.random.choice(list(range(-RES_X//8, RES_X//8)))*DT
+            self.dy = np.random.choice(list(range(-RES_Y//8, RES_Y//8)))*DT            
         #messages are up to L sensorial inputs from the agent
-        self.message = rng.choice(self.local_readings, self.L)
-        
-
-        #determine move
-
-        #determine message
-
+        if len(self.local_readings) > 0:
+            self.message = [prey for prey in list(rng.choice(self.local_readings, self.L))]
+        else:
+            self.message = []
+        # print(self.message)
+        self.env.message_board.messages + self.message
         #update state
-        self.x = (self.x + self.dx) % RES_X
-        self.y = (self.y + self.dy) % RES_Y
+        self.x = (self.x + int(self.dx)) % RES_X
+        self.y = (self.y + int(self.dy)) % RES_Y
 
-        #possibly update phi
-        self.phi = self.phi
+        return np.array([self.x, self.y, self.dx, self.dy, self.local_readings, self.message, self.neighbors])
 
 
 class Prey(Agent):
-    def __init__(self, env, phi, x=np.random.randint(RES_X), y=np.random.randint(RES_Y), dx=0, dy=0):
-        super().__init__(env, phi, x, y, dx, dy=dy)
+    def __init__(self, env, phi=None, x=np.random.randint(RES_X), y=np.random.randint(RES_Y), dx=0, dy=0):
+        super().__init__(env)
+        
         self.neighbors = dict(predators = [], preys = [])
-        self.local_readings = [(predator, predator.x, predator.y, predator.dx, predator.dy) for predator in self.neighbors["predators"]] 
-        self.phi = phi
-        self.state = np.array([x, y, dx, dy, self.local_readings, self.neighbors])
+        self.local_readings = [np.array([pred, pred.x, pred.y, pred.dx, pred.dy]) for pred in self.neighbors["predators"]] 
+        
+        if phi is not None:
+            self.phi = phi
+        
+        self.state = np.array([self.x, self.y, self.dx, self.dy, self.local_readings, self.neighbors])
 
     def get_neighborhood(self):
+        # distance = np.sqrt((prey.x - self.x)**2 - (prey.y - self.y)**2)
+        self.neighbors["predators"] = []
+        self.local_readings = []    
+        for pred in self.env.predators:
+            distance = spd.cityblock((self.x, self.y), (pred.x, pred.y))
+            if distance <= RADIUS_2:
+                self.neighbors["predators"].append(pred)
+                self.local_readings.append(np.array([pred, pred.x, pred.y, pred.dx, pred.dy, distance]))
 
-        for prey in self.env.preys:
-            if np.sqrt((prey.x - self.x)**2 - (prey.y - self.y)**2) <= 1:
-                self.neighbors["preys"].append(prey)
-
-        for pred in self.env.pred:
-            if np.sqrt((pred.x - self.x)**2 - (pred.y - self.y)**2) <= 1:
-                self.neighbors["predators"].append(pred)                
+        # for pred in self.env.pred:
+        #     if np.sqrt((pred.x - self.x)**2 - (pred.y - self.y)**2) <= RADIUS:
+        #         self.neighbors["predators"].append(pred)                
+    
+    def __repr__(self) -> str:
+        return "Prey: x = {}, y = {}, dx = {}, dy = {}".format(self.x, self.y, self.dx, self.dy)
 
 
     def update(self):
-        self.state = self.phi(self.env)
-        self.x = self.state[0]
-        self.y = self.state[1]
-        self.dx = self.state[2]
-        self.dy = self.state[3]
-        self.message = self.state[4]
-        self.phi = self.state[5]
+        self.state = self.phi()
     
-    def _phi(self):
+    def phi(self):
 
-        self.x = self.x + self.dx
-        self.y = self.y + self.dy
+        #update local sensorial input
+        self.get_neighborhood()
+
+        #get closest predator
+
+        min_dist = RES_Y*RES_X
+        min_index = 0
+        for i, reading in enumerate(self.local_readings):
+            if self.local_readings[i][-1] < min_dist:
+                min_dist = self.local_readings[i][-1]
+                min_index = i 
+        
+        #run
+        # print(self.local_readings)
+        # print(min_index)
+        try:
+            self.dx, self.dy = (np.array([self.x, self.y]) - np.array([self.local_readings[min_index][1], self.local_readings[min_index][2]]))*DT
+        except IndexError:
+            self.dx = np.random.choice(list(range(-RES_X//8, RES_X//8)))*DT
+            self.dy = np.random.choice(list(range(-RES_Y//8, RES_Y//8)))*DT
+
+        #update state
+
+        self.x = (self.x + int(self.dx)) % RES_X
+        self.y = (self.y + int(self.dy)) % RES_Y
+
+        return np.array([self.x, self.y, self.dx, self.dy, self.local_readings, self.neighbors])
 
 
 class Environment(object):
-    def __init__(self, screen, num_agents = 100):
-        self.screen = screen
+    def __init__(self, num_agents = 100):
+
         self.agents = [Agent(self) for i in range(num_agents)]
-        # self.board = np.zeros((RES_X, RES_Y, 3))
         self.board = np.zeros((RES_X, RES_Y, 3), dtype=np.uint8)
 
     def update(self):
         self.board = np.zeros((RES_X, RES_Y, 3), dtype=np.uint8)
         for a in self.agents:
-            # self.board[a.x, a.y] = 255
-            self.board[a.x, a.y] = np.array([255]*3, dtype=np.uint8)
+            self.board[a.x, a.y] = np.array([255, 0, 0], dtype=np.uint8)
             a.update()
-            # self.screen.set_at((a.x, a.y), (0, 0, 0))
+
 
 class MessageBoard(object):
     def __init__(self, env):
         self.env = env
-        self.messages = {pred.message for pred in self.env.predators}
+        self.messages = []
 
 
     def __str__(self):
@@ -213,37 +240,33 @@ class MessageBoard(object):
 
 class PreyPredatorEnvironment(Environment):
     def __init__(self, num_predators, num_preys):
-        super().__init__(num_agents = num_predators + num_preys)
-        self.predators = [Predator(self, phi_pred) for i in range(num_predators)]
-        self.preys = [Prey(self, phi_prey) for i in range(num_preys)]
-        # self.agents = {f"{i}": Agent() for i in range(num_agents)}
+        super().__init__()
+        self.predators = [Predator(self) for i in range(num_predators)]
+        self.preys = [Prey(self) for i in range(num_preys)]
         self.message_board = MessageBoard(self)
-        # self.agents_positions = np.array([np.array([self.agents[f"i"].x, self.agents[f"i"].y]) for i in range(num_agents)])
-        # self.board = np.zeros((num_agents*3, num_agents*3))
+        self.board = np.zeros((RES_X, RES_Y, 3), dtype=np.uint8)
     
     def update(self):
+        self.message_board.messages = []
+        self.board = np.zeros((RES_X, RES_Y, 3), dtype=np.uint8)
         for pred in self.predators:
             pred.update()
+            self.board[pred.x, pred.y] = np.array([255, 0, 0], dtype=np.uint8)
         for prey in self.preys:
             prey.update()
+            self.board[prey.x, prey.y] = np.array([0, 255, 0], dtype=np.uint8)
 
 # %%
-p = Predator(env)
+env = PreyPredatorEnvironment(N_PREDATORS, N_PREYS)
 
 # %%
-p.x
-# %%
-
-p.env
-# %%
-
+env.message_board.messages
 # %%
 
 pygame.init()
-# screen = pygame.display.set_mode((RES_X, RES_Y), flags = 0, depth=24)
 screen = pygame.display.set_mode((RES_X, RES_Y), flags = 0)
 screen.fill(0)
-env = Environment(screen, num_agents = 100)
+
 
 
 # %%
@@ -265,12 +288,7 @@ while not quit_loop:
             quit_loop = True
 
     im = env.board
-    # im = np.clip(im, 0, 255).astype(np.uint8)
 
-    # xim = Image.fromarray(im)
-
-    # s_image = pygame.pixelcopy.make_surface(im)
-    # screen.blit(s_image, (0, 0))
     pygame.surfarray.blit_array(screen, im)
     pygame.display.update()   
     time.sleep(0.05)
