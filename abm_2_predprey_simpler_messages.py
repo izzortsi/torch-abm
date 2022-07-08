@@ -353,6 +353,8 @@ while not quit_loop:
             sys.exit()
 
     im = env.board
+    xim = Image.fromarray(im)
+    xim.save(f"frames/frame{_iter:04d}.png")
     # print(env.message_board.messages)
 
     pygame.surfarray.blit_array(screen, im)
