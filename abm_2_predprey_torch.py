@@ -8,7 +8,9 @@ from PIL import Image
 import time
 import os
 import sys
-
+import torch as t
+import torch.nn as nn
+import torch.nn.functional as F
 
 
 RES_X = 512
