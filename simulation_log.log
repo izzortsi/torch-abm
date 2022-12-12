@@ -1,0 +1,1732 @@
+2022-12-12 15:10:00,618 255 preys left at the 20-th iteration.
+
+2022-12-12 15:10:00,618 Fittest predator: Predator 61; Eaten = 1 .
+
+2022-12-12 15:10:01,759 252 preys left at the 40-th iteration.
+
+2022-12-12 15:10:01,759 Fittest predator: Predator 9; Eaten = 1 .
+
+2022-12-12 15:10:02,878 248 preys left at the 60-th iteration.
+
+2022-12-12 15:10:02,878 Fittest predator: Predator 9; Eaten = 2 .
+
+2022-12-12 15:10:03,980 243 preys left at the 80-th iteration.
+
+2022-12-12 15:10:03,980 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:05,069 241 preys left at the 100-th iteration.
+
+2022-12-12 15:10:05,070 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:05,070 Increasing communication channel's size by 1; it's now: 4.
+
+2022-12-12 15:10:05,070 Message board size: 12.
+
+2022-12-12 15:10:05,070 Message board messages: [Prey 5, Prey 164, Prey 200, Prey 143, Prey 10, Prey 109, Prey 4, Prey 152, Prey 16, Prey 246, Prey 156, Prey 189].
+
+2022-12-12 15:10:06,152 238 preys left at the 120-th iteration.
+
+2022-12-12 15:10:06,152 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:07,201 234 preys left at the 140-th iteration.
+
+2022-12-12 15:10:07,201 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:08,252 234 preys left at the 160-th iteration.
+
+2022-12-12 15:10:08,252 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:09,302 232 preys left at the 180-th iteration.
+
+2022-12-12 15:10:09,302 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:10,356 231 preys left at the 200-th iteration.
+
+2022-12-12 15:10:10,356 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:10,356 Increasing communication channel's size by 1; it's now: 5.
+
+2022-12-12 15:10:10,356 Message board size: 5.
+
+2022-12-12 15:10:10,356 Message board messages: [Prey 164, Prey 14, Prey 151, Prey 93, Prey 64].
+
+2022-12-12 15:10:11,408 228 preys left at the 220-th iteration.
+
+2022-12-12 15:10:11,408 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:12,444 228 preys left at the 240-th iteration.
+
+2022-12-12 15:10:12,445 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:13,492 226 preys left at the 260-th iteration.
+
+2022-12-12 15:10:13,492 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:14,516 225 preys left at the 280-th iteration.
+
+2022-12-12 15:10:14,516 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:15,551 224 preys left at the 300-th iteration.
+
+2022-12-12 15:10:15,551 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:15,551 Increasing communication channel's size by 1; it's now: 6.
+
+2022-12-12 15:10:15,552 Message board size: 1.
+
+2022-12-12 15:10:15,552 Message board messages: [Prey 53].
+
+2022-12-12 15:10:16,582 223 preys left at the 320-th iteration.
+
+2022-12-12 15:10:16,583 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:17,608 223 preys left at the 340-th iteration.
+
+2022-12-12 15:10:17,608 Fittest predator: Predator 9; Eaten = 3 .
+
+2022-12-12 15:10:18,628 221 preys left at the 360-th iteration.
+
+2022-12-12 15:10:18,628 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:19,640 221 preys left at the 380-th iteration.
+
+2022-12-12 15:10:19,640 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:20,661 221 preys left at the 400-th iteration.
+
+2022-12-12 15:10:20,661 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:20,661 Increasing communication channel's size by 1; it's now: 7.
+
+2022-12-12 15:10:20,661 Message board size: 2.
+
+2022-12-12 15:10:20,661 Message board messages: [Prey 161, Prey 200].
+
+2022-12-12 15:10:21,656 220 preys left at the 420-th iteration.
+
+2022-12-12 15:10:21,656 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:22,644 220 preys left at the 440-th iteration.
+
+2022-12-12 15:10:22,644 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:23,667 219 preys left at the 460-th iteration.
+
+2022-12-12 15:10:23,668 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:24,712 219 preys left at the 480-th iteration.
+
+2022-12-12 15:10:24,712 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:25,726 217 preys left at the 500-th iteration.
+
+2022-12-12 15:10:25,726 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:25,726 Increasing communication channel's size by 1; it's now: 8.
+
+2022-12-12 15:10:25,726 Message board size: 3.
+
+2022-12-12 15:10:25,726 Message board messages: [Prey 1, Prey 160, Prey 246].
+
+2022-12-12 15:10:26,733 215 preys left at the 520-th iteration.
+
+2022-12-12 15:10:26,735 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:27,745 215 preys left at the 540-th iteration.
+
+2022-12-12 15:10:27,745 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:28,742 213 preys left at the 560-th iteration.
+
+2022-12-12 15:10:28,743 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:29,718 212 preys left at the 580-th iteration.
+
+2022-12-12 15:10:29,718 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:30,700 212 preys left at the 600-th iteration.
+
+2022-12-12 15:10:30,700 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:30,700 Increasing communication channel's size by 1; it's now: 9.
+
+2022-12-12 15:10:30,700 Message board size: 4.
+
+2022-12-12 15:10:30,700 Message board messages: [Prey 229, Prey 82, Prey 185, Prey 223].
+
+2022-12-12 15:10:31,703 212 preys left at the 620-th iteration.
+
+2022-12-12 15:10:31,703 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:32,685 208 preys left at the 640-th iteration.
+
+2022-12-12 15:10:32,685 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:33,659 207 preys left at the 660-th iteration.
+
+2022-12-12 15:10:33,660 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:34,622 205 preys left at the 680-th iteration.
+
+2022-12-12 15:10:34,623 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:35,584 205 preys left at the 700-th iteration.
+
+2022-12-12 15:10:35,585 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:35,585 Increasing communication channel's size by 1; it's now: 10.
+
+2022-12-12 15:10:35,585 Message board size: 7.
+
+2022-12-12 15:10:35,585 Message board messages: [Prey 215, Prey 189, Prey 181, Prey 232, Prey 7, Prey 196, Prey 136].
+
+2022-12-12 15:10:36,562 204 preys left at the 720-th iteration.
+
+2022-12-12 15:10:36,563 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:37,545 204 preys left at the 740-th iteration.
+
+2022-12-12 15:10:37,545 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:38,546 204 preys left at the 760-th iteration.
+
+2022-12-12 15:10:38,546 Fittest predator: Predator 9; Eaten = 4 .
+
+2022-12-12 15:10:39,545 203 preys left at the 780-th iteration.
+
+2022-12-12 15:10:39,545 Fittest predator: Predator 2; Eaten = 4 .
+
+2022-12-12 15:10:40,530 201 preys left at the 800-th iteration.
+
+2022-12-12 15:10:40,530 Fittest predator: Predator 2; Eaten = 4 .
+
+2022-12-12 15:10:40,530 Increasing communication channel's size by 1; it's now: 11.
+
+2022-12-12 15:10:40,530 Message board size: 10.
+
+2022-12-12 15:10:40,530 Message board messages: [Prey 215, Prey 61, Prey 11, Prey 21, Prey 57, Prey 145, Prey 104, Prey 220, Prey 203, Prey 136].
+
+2022-12-12 15:10:41,529 201 preys left at the 820-th iteration.
+
+2022-12-12 15:10:41,529 Fittest predator: Predator 2; Eaten = 4 .
+
+2022-12-12 15:10:42,510 200 preys left at the 840-th iteration.
+
+2022-12-12 15:10:42,510 Fittest predator: Predator 2; Eaten = 4 .
+
+2022-12-12 15:10:43,497 199 preys left at the 860-th iteration.
+
+2022-12-12 15:10:43,497 Fittest predator: Predator 9; Eaten = 5 .
+
+2022-12-12 15:10:44,463 198 preys left at the 880-th iteration.
+
+2022-12-12 15:10:44,463 Fittest predator: Predator 9; Eaten = 5 .
+
+2022-12-12 15:10:45,432 196 preys left at the 900-th iteration.
+
+2022-12-12 15:10:45,432 Fittest predator: Predator 2; Eaten = 5 .
+
+2022-12-12 15:10:45,432 Increasing communication channel's size by 1; it's now: 12.
+
+2022-12-12 15:10:45,432 Message board size: 5.
+
+2022-12-12 15:10:45,432 Message board messages: [Prey 182, Prey 21, Prey 245, Prey 203, Prey 166].
+
+2022-12-12 15:10:46,422 194 preys left at the 920-th iteration.
+
+2022-12-12 15:10:46,422 Fittest predator: Predator 2; Eaten = 5 .
+
+2022-12-12 15:10:47,374 192 preys left at the 940-th iteration.
+
+2022-12-12 15:10:47,374 Fittest predator: Predator 2; Eaten = 5 .
+
+2022-12-12 15:10:48,310 192 preys left at the 960-th iteration.
+
+2022-12-12 15:10:48,310 Fittest predator: Predator 2; Eaten = 5 .
+
+2022-12-12 15:10:49,250 191 preys left at the 980-th iteration.
+
+2022-12-12 15:10:49,250 Fittest predator: Predator 2; Eaten = 5 .
+
+2022-12-12 15:10:50,176 190 preys left at the 1000-th iteration.
+
+2022-12-12 15:10:50,179 Fittest predator: Predator 2; Eaten = 5 .
+
+2022-12-12 15:10:50,179 Increasing communication channel's size by 1; it's now: 13.
+
+2022-12-12 15:10:50,179 Message board size: 9.
+
+2022-12-12 15:10:50,179 Message board messages: [Prey 112, Prey 194, Prey 158, Prey 160, Prey 44, Prey 245, Prey 50, Prey 21, Prey 203].
+
+2022-12-12 15:10:51,112 189 preys left at the 1020-th iteration.
+
+2022-12-12 15:10:51,113 Fittest predator: Predator 2; Eaten = 5 .
+
+2022-12-12 15:10:52,049 187 preys left at the 1040-th iteration.
+
+2022-12-12 15:10:52,049 Fittest predator: Predator 2; Eaten = 5 .
+
+2022-12-12 15:10:52,974 186 preys left at the 1060-th iteration.
+
+2022-12-12 15:10:52,974 Fittest predator: Predator 2; Eaten = 5 .
+
+2022-12-12 15:10:53,895 183 preys left at the 1080-th iteration.
+
+2022-12-12 15:10:53,895 Fittest predator: Predator 9; Eaten = 6 .
+
+2022-12-12 15:10:54,803 183 preys left at the 1100-th iteration.
+
+2022-12-12 15:10:54,803 Fittest predator: Predator 9; Eaten = 6 .
+
+2022-12-12 15:10:54,803 Increasing communication channel's size by 1; it's now: 14.
+
+2022-12-12 15:10:54,803 Message board size: 5.
+
+2022-12-12 15:10:54,803 Message board messages: [Prey 124, Prey 145, Prey 140, Prey 21, Prey 35].
+
+2022-12-12 15:10:55,705 183 preys left at the 1120-th iteration.
+
+2022-12-12 15:10:55,705 Fittest predator: Predator 9; Eaten = 6 .
+
+2022-12-12 15:10:56,618 182 preys left at the 1140-th iteration.
+
+2022-12-12 15:10:56,618 Fittest predator: Predator 9; Eaten = 6 .
+
+2022-12-12 15:10:57,523 179 preys left at the 1160-th iteration.
+
+2022-12-12 15:10:57,523 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:10:58,423 178 preys left at the 1180-th iteration.
+
+2022-12-12 15:10:58,423 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:10:59,306 177 preys left at the 1200-th iteration.
+
+2022-12-12 15:10:59,306 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:10:59,306 Increasing communication channel's size by 1; it's now: 15.
+
+2022-12-12 15:10:59,307 Message board size: 2.
+
+2022-12-12 15:10:59,307 Message board messages: [Prey 61, Prey 134].
+
+2022-12-12 15:11:00,198 177 preys left at the 1220-th iteration.
+
+2022-12-12 15:11:00,198 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:01,093 177 preys left at the 1240-th iteration.
+
+2022-12-12 15:11:01,093 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:02,004 177 preys left at the 1260-th iteration.
+
+2022-12-12 15:11:02,004 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:02,908 177 preys left at the 1280-th iteration.
+
+2022-12-12 15:11:02,908 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:03,796 177 preys left at the 1300-th iteration.
+
+2022-12-12 15:11:03,796 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:03,796 Increasing communication channel's size by 1; it's now: 16.
+
+2022-12-12 15:11:03,796 Message board size: 3.
+
+2022-12-12 15:11:03,796 Message board messages: [Prey 188, Prey 74, Prey 61].
+
+2022-12-12 15:11:04,700 177 preys left at the 1320-th iteration.
+
+2022-12-12 15:11:04,701 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:05,593 177 preys left at the 1340-th iteration.
+
+2022-12-12 15:11:05,593 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:06,491 177 preys left at the 1360-th iteration.
+
+2022-12-12 15:11:06,491 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:07,395 176 preys left at the 1380-th iteration.
+
+2022-12-12 15:11:07,395 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:08,284 175 preys left at the 1400-th iteration.
+
+2022-12-12 15:11:08,284 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:08,284 Increasing communication channel's size by 1; it's now: 17.
+
+2022-12-12 15:11:08,284 Message board size: 3.
+
+2022-12-12 15:11:08,285 Message board messages: [Prey 168, Prey 219, Prey 188].
+
+2022-12-12 15:11:09,168 173 preys left at the 1420-th iteration.
+
+2022-12-12 15:11:09,168 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:10,064 171 preys left at the 1440-th iteration.
+
+2022-12-12 15:11:10,065 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:10,937 171 preys left at the 1460-th iteration.
+
+2022-12-12 15:11:10,937 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:11,804 170 preys left at the 1480-th iteration.
+
+2022-12-12 15:11:11,804 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:12,702 169 preys left at the 1500-th iteration.
+
+2022-12-12 15:11:12,702 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:12,702 Increasing communication channel's size by 1; it's now: 18.
+
+2022-12-12 15:11:12,702 Message board size: 2.
+
+2022-12-12 15:11:12,702 Message board messages: [Prey 175, Prey 97].
+
+2022-12-12 15:11:13,568 168 preys left at the 1520-th iteration.
+
+2022-12-12 15:11:13,568 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:14,441 168 preys left at the 1540-th iteration.
+
+2022-12-12 15:11:14,441 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:15,322 166 preys left at the 1560-th iteration.
+
+2022-12-12 15:11:15,322 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:16,193 166 preys left at the 1580-th iteration.
+
+2022-12-12 15:11:16,193 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:17,066 165 preys left at the 1600-th iteration.
+
+2022-12-12 15:11:17,067 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:17,067 Increasing communication channel's size by 1; it's now: 19.
+
+2022-12-12 15:11:17,067 Message board size: 1.
+
+2022-12-12 15:11:17,067 Message board messages: [Prey 22].
+
+2022-12-12 15:11:17,957 165 preys left at the 1620-th iteration.
+
+2022-12-12 15:11:17,957 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:18,825 164 preys left at the 1640-th iteration.
+
+2022-12-12 15:11:18,825 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:19,682 164 preys left at the 1660-th iteration.
+
+2022-12-12 15:11:19,682 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:20,535 163 preys left at the 1680-th iteration.
+
+2022-12-12 15:11:20,535 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:21,373 162 preys left at the 1700-th iteration.
+
+2022-12-12 15:11:21,374 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:21,374 Increasing communication channel's size by 1; it's now: 20.
+
+2022-12-12 15:11:21,374 Message board size: 2.
+
+2022-12-12 15:11:21,374 Message board messages: [Prey 11, Prey 159].
+
+2022-12-12 15:11:22,205 162 preys left at the 1720-th iteration.
+
+2022-12-12 15:11:22,205 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:23,069 162 preys left at the 1740-th iteration.
+
+2022-12-12 15:11:23,069 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:23,924 160 preys left at the 1760-th iteration.
+
+2022-12-12 15:11:23,924 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:24,763 160 preys left at the 1780-th iteration.
+
+2022-12-12 15:11:24,763 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:25,592 159 preys left at the 1800-th iteration.
+
+2022-12-12 15:11:25,592 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:25,592 Increasing communication channel's size by 1; it's now: 21.
+
+2022-12-12 15:11:25,592 Message board size: 1.
+
+2022-12-12 15:11:25,593 Message board messages: [Prey 34].
+
+2022-12-12 15:11:26,440 159 preys left at the 1820-th iteration.
+
+2022-12-12 15:11:26,440 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:27,282 158 preys left at the 1840-th iteration.
+
+2022-12-12 15:11:27,282 Fittest predator: Predator 9; Eaten = 7 .
+
+2022-12-12 15:11:28,150 157 preys left at the 1860-th iteration.
+
+2022-12-12 15:11:28,150 Fittest predator: Predator 2; Eaten = 7 .
+
+2022-12-12 15:11:29,044 157 preys left at the 1880-th iteration.
+
+2022-12-12 15:11:29,044 Fittest predator: Predator 2; Eaten = 7 .
+
+2022-12-12 15:11:29,996 157 preys left at the 1900-th iteration.
+
+2022-12-12 15:11:29,996 Fittest predator: Predator 2; Eaten = 7 .
+
+2022-12-12 15:11:29,996 Increasing communication channel's size by 1; it's now: 22.
+
+2022-12-12 15:11:29,996 Message board size: 2.
+
+2022-12-12 15:11:29,996 Message board messages: [Prey 68, Prey 206].
+
+2022-12-12 15:11:30,846 157 preys left at the 1920-th iteration.
+
+2022-12-12 15:11:30,846 Fittest predator: Predator 2; Eaten = 7 .
+
+2022-12-12 15:11:31,722 157 preys left at the 1940-th iteration.
+
+2022-12-12 15:11:31,722 Fittest predator: Predator 2; Eaten = 7 .
+
+2022-12-12 15:11:32,610 157 preys left at the 1960-th iteration.
+
+2022-12-12 15:11:32,610 Fittest predator: Predator 2; Eaten = 7 .
+
+2022-12-12 15:11:33,599 157 preys left at the 1980-th iteration.
+
+2022-12-12 15:11:33,599 Fittest predator: Predator 2; Eaten = 7 .
+
+2022-12-12 15:11:34,463 156 preys left at the 2000-th iteration.
+
+2022-12-12 15:11:34,463 Fittest predator: Predator 2; Eaten = 7 .
+
+2022-12-12 15:11:34,463 Increasing communication channel's size by 1; it's now: 23.
+
+2022-12-12 15:11:34,463 Message board size: 3.
+
+2022-12-12 15:11:34,464 Message board messages: [Prey 190, Prey 251, Prey 121].
+
+2022-12-12 15:11:35,375 155 preys left at the 2020-th iteration.
+
+2022-12-12 15:11:35,376 Fittest predator: Predator 2; Eaten = 7 .
+
+2022-12-12 15:11:36,507 152 preys left at the 2040-th iteration.
+
+2022-12-12 15:11:36,507 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:37,627 151 preys left at the 2060-th iteration.
+
+2022-12-12 15:11:37,627 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:38,461 150 preys left at the 2080-th iteration.
+
+2022-12-12 15:11:38,462 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:39,422 150 preys left at the 2100-th iteration.
+
+2022-12-12 15:11:39,422 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:39,426 Increasing communication channel's size by 1; it's now: 24.
+
+2022-12-12 15:11:39,426 Message board size: 3.
+
+2022-12-12 15:11:39,426 Message board messages: [Prey 206, Prey 95, Prey 157].
+
+2022-12-12 15:11:40,429 150 preys left at the 2120-th iteration.
+
+2022-12-12 15:11:40,429 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:41,273 150 preys left at the 2140-th iteration.
+
+2022-12-12 15:11:41,273 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:42,297 150 preys left at the 2160-th iteration.
+
+2022-12-12 15:11:42,297 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:43,108 148 preys left at the 2180-th iteration.
+
+2022-12-12 15:11:43,110 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:43,943 148 preys left at the 2200-th iteration.
+
+2022-12-12 15:11:43,944 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:43,944 Increasing communication channel's size by 1; it's now: 25.
+
+2022-12-12 15:11:43,944 Message board size: 0.
+
+2022-12-12 15:11:43,944 Message board messages: [].
+
+2022-12-12 15:11:44,745 148 preys left at the 2220-th iteration.
+
+2022-12-12 15:11:44,745 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:45,563 148 preys left at the 2240-th iteration.
+
+2022-12-12 15:11:45,563 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:46,385 148 preys left at the 2260-th iteration.
+
+2022-12-12 15:11:46,385 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:47,199 148 preys left at the 2280-th iteration.
+
+2022-12-12 15:11:47,200 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:48,040 147 preys left at the 2300-th iteration.
+
+2022-12-12 15:11:48,040 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:48,040 Increasing communication channel's size by 1; it's now: 26.
+
+2022-12-12 15:11:48,040 Message board size: 1.
+
+2022-12-12 15:11:48,040 Message board messages: [Prey 17].
+
+2022-12-12 15:11:48,827 147 preys left at the 2320-th iteration.
+
+2022-12-12 15:11:48,828 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:49,639 147 preys left at the 2340-th iteration.
+
+2022-12-12 15:11:49,639 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:50,461 147 preys left at the 2360-th iteration.
+
+2022-12-12 15:11:50,461 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:51,280 147 preys left at the 2380-th iteration.
+
+2022-12-12 15:11:51,280 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:52,096 147 preys left at the 2400-th iteration.
+
+2022-12-12 15:11:52,096 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:52,096 Increasing communication channel's size by 1; it's now: 27.
+
+2022-12-12 15:11:52,096 Message board size: 1.
+
+2022-12-12 15:11:52,096 Message board messages: [Prey 17].
+
+2022-12-12 15:11:52,891 146 preys left at the 2420-th iteration.
+
+2022-12-12 15:11:52,891 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:53,713 146 preys left at the 2440-th iteration.
+
+2022-12-12 15:11:53,713 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:54,498 145 preys left at the 2460-th iteration.
+
+2022-12-12 15:11:54,498 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:55,302 144 preys left at the 2480-th iteration.
+
+2022-12-12 15:11:55,302 Fittest predator: Predator 10; Eaten = 8 .
+
+2022-12-12 15:11:56,086 142 preys left at the 2500-th iteration.
+
+2022-12-12 15:11:56,086 Fittest predator: Predator 2; Eaten = 8 .
+
+2022-12-12 15:11:56,086 Increasing communication channel's size by 1; it's now: 28.
+
+2022-12-12 15:11:56,086 Message board size: 1.
+
+2022-12-12 15:11:56,086 Message board messages: [Prey 124].
+
+2022-12-12 15:11:56,857 141 preys left at the 2520-th iteration.
+
+2022-12-12 15:11:56,857 Fittest predator: Predator 2; Eaten = 8 .
+
+2022-12-12 15:11:57,637 141 preys left at the 2540-th iteration.
+
+2022-12-12 15:11:57,638 Fittest predator: Predator 2; Eaten = 8 .
+
+2022-12-12 15:11:58,638 140 preys left at the 2560-th iteration.
+
+2022-12-12 15:11:58,638 Fittest predator: Predator 2; Eaten = 8 .
+
+2022-12-12 15:11:59,434 140 preys left at the 2580-th iteration.
+
+2022-12-12 15:11:59,434 Fittest predator: Predator 2; Eaten = 8 .
+
+2022-12-12 15:12:00,225 140 preys left at the 2600-th iteration.
+
+2022-12-12 15:12:00,225 Fittest predator: Predator 2; Eaten = 8 .
+
+2022-12-12 15:12:00,225 Increasing communication channel's size by 1; it's now: 29.
+
+2022-12-12 15:12:00,225 Message board size: 7.
+
+2022-12-12 15:12:00,225 Message board messages: [Prey 84, Prey 71, Prey 160, Prey 88, Prey 222, Prey 9, Prey 204].
+
+2022-12-12 15:12:01,033 138 preys left at the 2620-th iteration.
+
+2022-12-12 15:12:01,033 Fittest predator: Predator 2; Eaten = 8 .
+
+2022-12-12 15:12:01,820 138 preys left at the 2640-th iteration.
+
+2022-12-12 15:12:01,820 Fittest predator: Predator 2; Eaten = 8 .
+
+2022-12-12 15:12:02,614 137 preys left at the 2660-th iteration.
+
+2022-12-12 15:12:02,614 Fittest predator: Predator 2; Eaten = 8 .
+
+2022-12-12 15:12:03,385 136 preys left at the 2680-th iteration.
+
+2022-12-12 15:12:03,385 Fittest predator: Predator 2; Eaten = 8 .
+
+2022-12-12 15:12:04,163 133 preys left at the 2700-th iteration.
+
+2022-12-12 15:12:04,164 Fittest predator: Predator 3; Eaten = 9 .
+
+2022-12-12 15:12:04,164 Increasing communication channel's size by 1; it's now: 30.
+
+2022-12-12 15:12:04,164 Message board size: 5.
+
+2022-12-12 15:12:04,164 Message board messages: [Prey 243, Prey 230, Prey 62, Prey 117, Prey 37].
+
+2022-12-12 15:12:04,946 133 preys left at the 2720-th iteration.
+
+2022-12-12 15:12:04,946 Fittest predator: Predator 3; Eaten = 9 .
+
+2022-12-12 15:12:05,728 129 preys left at the 2740-th iteration.
+
+2022-12-12 15:12:05,728 Fittest predator: Predator 3; Eaten = 9 .
+
+2022-12-12 15:12:06,499 128 preys left at the 2760-th iteration.
+
+2022-12-12 15:12:06,499 Fittest predator: Predator 3; Eaten = 9 .
+
+2022-12-12 15:12:07,278 128 preys left at the 2780-th iteration.
+
+2022-12-12 15:12:07,278 Fittest predator: Predator 3; Eaten = 9 .
+
+2022-12-12 15:12:08,095 127 preys left at the 2800-th iteration.
+
+2022-12-12 15:12:08,095 Fittest predator: Predator 3; Eaten = 10 .
+
+2022-12-12 15:12:08,095 Increasing communication channel's size by 1; it's now: 31.
+
+2022-12-12 15:12:08,096 Message board size: 5.
+
+2022-12-12 15:12:08,096 Message board messages: [Prey 147, Prey 19, Prey 160, Prey 120, Prey 230].
+
+2022-12-12 15:12:08,860 125 preys left at the 2820-th iteration.
+
+2022-12-12 15:12:08,861 Fittest predator: Predator 3; Eaten = 10 .
+
+2022-12-12 15:12:09,614 124 preys left at the 2840-th iteration.
+
+2022-12-12 15:12:09,615 Fittest predator: Predator 3; Eaten = 10 .
+
+2022-12-12 15:12:10,342 124 preys left at the 2860-th iteration.
+
+2022-12-12 15:12:10,343 Fittest predator: Predator 3; Eaten = 10 .
+
+2022-12-12 15:12:11,111 124 preys left at the 2880-th iteration.
+
+2022-12-12 15:12:11,111 Fittest predator: Predator 3; Eaten = 10 .
+
+2022-12-12 15:12:11,933 123 preys left at the 2900-th iteration.
+
+2022-12-12 15:12:11,933 Fittest predator: Predator 3; Eaten = 10 .
+
+2022-12-12 15:12:11,933 Increasing communication channel's size by 1; it's now: 32.
+
+2022-12-12 15:12:11,933 Message board size: 6.
+
+2022-12-12 15:12:11,933 Message board messages: [Prey 147, Prey 35, Prey 174, Prey 23, Prey 242, Prey 187].
+
+2022-12-12 15:12:12,690 123 preys left at the 2920-th iteration.
+
+2022-12-12 15:12:12,690 Fittest predator: Predator 3; Eaten = 10 .
+
+2022-12-12 15:12:13,421 123 preys left at the 2940-th iteration.
+
+2022-12-12 15:12:13,421 Fittest predator: Predator 3; Eaten = 10 .
+
+2022-12-12 15:12:14,160 122 preys left at the 2960-th iteration.
+
+2022-12-12 15:12:14,160 Fittest predator: Predator 3; Eaten = 11 .
+
+2022-12-12 15:12:14,937 121 preys left at the 2980-th iteration.
+
+2022-12-12 15:12:14,937 Fittest predator: Predator 3; Eaten = 11 .
+
+2022-12-12 15:12:15,668 121 preys left at the 3000-th iteration.
+
+2022-12-12 15:12:15,668 Fittest predator: Predator 3; Eaten = 11 .
+
+2022-12-12 15:12:15,668 Increasing communication channel's size by 1; it's now: 33.
+
+2022-12-12 15:12:15,668 Message board size: 5.
+
+2022-12-12 15:12:15,668 Message board messages: [Prey 116, Prey 188, Prey 138, Prey 174, Prey 35].
+
+2022-12-12 15:12:16,399 120 preys left at the 3020-th iteration.
+
+2022-12-12 15:12:16,400 Fittest predator: Predator 3; Eaten = 11 .
+
+2022-12-12 15:12:17,130 118 preys left at the 3040-th iteration.
+
+2022-12-12 15:12:17,130 Fittest predator: Predator 3; Eaten = 12 .
+
+2022-12-12 15:12:17,910 117 preys left at the 3060-th iteration.
+
+2022-12-12 15:12:17,910 Fittest predator: Predator 3; Eaten = 12 .
+
+2022-12-12 15:12:18,653 116 preys left at the 3080-th iteration.
+
+2022-12-12 15:12:18,653 Fittest predator: Predator 3; Eaten = 12 .
+
+2022-12-12 15:12:19,378 116 preys left at the 3100-th iteration.
+
+2022-12-12 15:12:19,378 Fittest predator: Predator 3; Eaten = 12 .
+
+2022-12-12 15:12:19,378 Increasing communication channel's size by 1; it's now: 34.
+
+2022-12-12 15:12:19,378 Message board size: 2.
+
+2022-12-12 15:12:19,378 Message board messages: [Prey 46, Prey 70].
+
+2022-12-12 15:12:20,131 116 preys left at the 3120-th iteration.
+
+2022-12-12 15:12:20,131 Fittest predator: Predator 3; Eaten = 12 .
+
+2022-12-12 15:12:20,852 116 preys left at the 3140-th iteration.
+
+2022-12-12 15:12:20,852 Fittest predator: Predator 3; Eaten = 12 .
+
+2022-12-12 15:12:21,577 115 preys left at the 3160-th iteration.
+
+2022-12-12 15:12:21,577 Fittest predator: Predator 3; Eaten = 12 .
+
+2022-12-12 15:12:22,299 114 preys left at the 3180-th iteration.
+
+2022-12-12 15:12:22,299 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:23,046 114 preys left at the 3200-th iteration.
+
+2022-12-12 15:12:23,046 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:23,046 Increasing communication channel's size by 1; it's now: 35.
+
+2022-12-12 15:12:23,046 Message board size: 7.
+
+2022-12-12 15:12:23,046 Message board messages: [Prey 52, Prey 103, Prey 59, Prey 75, Prey 67, Prey 208, Prey 46].
+
+2022-12-12 15:12:23,764 112 preys left at the 3220-th iteration.
+
+2022-12-12 15:12:23,764 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:24,484 110 preys left at the 3240-th iteration.
+
+2022-12-12 15:12:24,484 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:25,222 109 preys left at the 3260-th iteration.
+
+2022-12-12 15:12:25,222 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:25,952 108 preys left at the 3280-th iteration.
+
+2022-12-12 15:12:25,952 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:26,655 107 preys left at the 3300-th iteration.
+
+2022-12-12 15:12:26,655 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:26,655 Increasing communication channel's size by 1; it's now: 36.
+
+2022-12-12 15:12:26,655 Message board size: 4.
+
+2022-12-12 15:12:26,655 Message board messages: [Prey 96, Prey 67, Prey 75, Prey 25].
+
+2022-12-12 15:12:27,353 107 preys left at the 3320-th iteration.
+
+2022-12-12 15:12:27,353 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:28,067 107 preys left at the 3340-th iteration.
+
+2022-12-12 15:12:28,068 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:28,783 107 preys left at the 3360-th iteration.
+
+2022-12-12 15:12:28,783 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:29,491 106 preys left at the 3380-th iteration.
+
+2022-12-12 15:12:29,491 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:30,219 105 preys left at the 3400-th iteration.
+
+2022-12-12 15:12:30,219 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:30,220 Increasing communication channel's size by 1; it's now: 37.
+
+2022-12-12 15:12:30,220 Message board size: 6.
+
+2022-12-12 15:12:30,220 Message board messages: [Prey 96, Prey 107, Prey 42, Prey 111, Prey 188, Prey 25].
+
+2022-12-12 15:12:30,968 105 preys left at the 3420-th iteration.
+
+2022-12-12 15:12:30,968 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:31,695 104 preys left at the 3440-th iteration.
+
+2022-12-12 15:12:31,696 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:32,423 103 preys left at the 3460-th iteration.
+
+2022-12-12 15:12:32,423 Fittest predator: Predator 3; Eaten = 13 .
+
+2022-12-12 15:12:33,119 102 preys left at the 3480-th iteration.
+
+2022-12-12 15:12:33,119 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:33,850 102 preys left at the 3500-th iteration.
+
+2022-12-12 15:12:33,851 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:33,851 Increasing communication channel's size by 1; it's now: 38.
+
+2022-12-12 15:12:33,851 Message board size: 3.
+
+2022-12-12 15:12:33,851 Message board messages: [Prey 25, Prey 107, Prey 76].
+
+2022-12-12 15:12:34,560 101 preys left at the 3520-th iteration.
+
+2022-12-12 15:12:34,561 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:35,263 101 preys left at the 3540-th iteration.
+
+2022-12-12 15:12:35,263 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:36,016 100 preys left at the 3560-th iteration.
+
+2022-12-12 15:12:36,016 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:36,711 98 preys left at the 3580-th iteration.
+
+2022-12-12 15:12:36,711 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:37,419 98 preys left at the 3600-th iteration.
+
+2022-12-12 15:12:37,419 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:37,419 Increasing communication channel's size by 1; it's now: 39.
+
+2022-12-12 15:12:37,419 Message board size: 4.
+
+2022-12-12 15:12:37,419 Message board messages: [Prey 0, Prey 132, Prey 25, Prey 96].
+
+2022-12-12 15:12:38,120 98 preys left at the 3620-th iteration.
+
+2022-12-12 15:12:38,120 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:38,812 98 preys left at the 3640-th iteration.
+
+2022-12-12 15:12:38,812 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:39,498 98 preys left at the 3660-th iteration.
+
+2022-12-12 15:12:39,498 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:40,162 97 preys left at the 3680-th iteration.
+
+2022-12-12 15:12:40,162 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:40,843 97 preys left at the 3700-th iteration.
+
+2022-12-12 15:12:40,843 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:40,843 Increasing communication channel's size by 1; it's now: 40.
+
+2022-12-12 15:12:40,844 Message board size: 5.
+
+2022-12-12 15:12:40,844 Message board messages: [Prey 6, Prey 225, Prey 45, Prey 96, Prey 155].
+
+2022-12-12 15:12:41,527 96 preys left at the 3720-th iteration.
+
+2022-12-12 15:12:41,528 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:42,218 96 preys left at the 3740-th iteration.
+
+2022-12-12 15:12:42,219 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:42,898 93 preys left at the 3760-th iteration.
+
+2022-12-12 15:12:42,898 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:43,550 93 preys left at the 3780-th iteration.
+
+2022-12-12 15:12:43,550 Fittest predator: Predator 3; Eaten = 14 .
+
+2022-12-12 15:12:44,213 92 preys left at the 3800-th iteration.
+
+2022-12-12 15:12:44,213 Fittest predator: Predator 2; Eaten = 14 .
+
+2022-12-12 15:12:44,213 Increasing communication channel's size by 1; it's now: 41.
+
+2022-12-12 15:12:44,213 Message board size: 3.
+
+2022-12-12 15:12:44,213 Message board messages: [Prey 193, Prey 148, Prey 45].
+
+2022-12-12 15:12:44,861 92 preys left at the 3820-th iteration.
+
+2022-12-12 15:12:44,861 Fittest predator: Predator 2; Eaten = 14 .
+
+2022-12-12 15:12:45,531 91 preys left at the 3840-th iteration.
+
+2022-12-12 15:12:45,532 Fittest predator: Predator 2; Eaten = 15 .
+
+2022-12-12 15:12:46,192 91 preys left at the 3860-th iteration.
+
+2022-12-12 15:12:46,193 Fittest predator: Predator 2; Eaten = 15 .
+
+2022-12-12 15:12:46,839 89 preys left at the 3880-th iteration.
+
+2022-12-12 15:12:46,839 Fittest predator: Predator 2; Eaten = 15 .
+
+2022-12-12 15:12:47,510 87 preys left at the 3900-th iteration.
+
+2022-12-12 15:12:47,510 Fittest predator: Predator 2; Eaten = 15 .
+
+2022-12-12 15:12:47,511 Increasing communication channel's size by 1; it's now: 42.
+
+2022-12-12 15:12:47,511 Message board size: 0.
+
+2022-12-12 15:12:47,511 Message board messages: [].
+
+2022-12-12 15:12:48,138 86 preys left at the 3920-th iteration.
+
+2022-12-12 15:12:48,138 Fittest predator: Predator 2; Eaten = 15 .
+
+2022-12-12 15:12:48,758 86 preys left at the 3940-th iteration.
+
+2022-12-12 15:12:48,758 Fittest predator: Predator 2; Eaten = 15 .
+
+2022-12-12 15:12:49,385 86 preys left at the 3960-th iteration.
+
+2022-12-12 15:12:49,385 Fittest predator: Predator 2; Eaten = 15 .
+
+2022-12-12 15:12:50,021 85 preys left at the 3980-th iteration.
+
+2022-12-12 15:12:50,022 Fittest predator: Predator 3; Eaten = 16 .
+
+2022-12-12 15:12:50,646 84 preys left at the 4000-th iteration.
+
+2022-12-12 15:12:50,647 Fittest predator: Predator 3; Eaten = 16 .
+
+2022-12-12 15:12:50,647 Increasing communication channel's size by 1; it's now: 43.
+
+2022-12-12 15:12:50,647 Message board size: 1.
+
+2022-12-12 15:12:50,647 Message board messages: [Prey 89].
+
+2022-12-12 15:12:51,249 84 preys left at the 4020-th iteration.
+
+2022-12-12 15:12:51,249 Fittest predator: Predator 3; Eaten = 16 .
+
+2022-12-12 15:12:51,854 84 preys left at the 4040-th iteration.
+
+2022-12-12 15:12:51,854 Fittest predator: Predator 3; Eaten = 16 .
+
+2022-12-12 15:12:52,488 83 preys left at the 4060-th iteration.
+
+2022-12-12 15:12:52,488 Fittest predator: Predator 3; Eaten = 17 .
+
+2022-12-12 15:12:53,105 83 preys left at the 4080-th iteration.
+
+2022-12-12 15:12:53,105 Fittest predator: Predator 3; Eaten = 17 .
+
+2022-12-12 15:12:53,726 83 preys left at the 4100-th iteration.
+
+2022-12-12 15:12:53,726 Fittest predator: Predator 3; Eaten = 17 .
+
+2022-12-12 15:12:53,726 Increasing communication channel's size by 1; it's now: 44.
+
+2022-12-12 15:12:53,726 Message board size: 1.
+
+2022-12-12 15:12:53,726 Message board messages: [Prey 25].
+
+2022-12-12 15:12:54,347 83 preys left at the 4120-th iteration.
+
+2022-12-12 15:12:54,347 Fittest predator: Predator 3; Eaten = 17 .
+
+2022-12-12 15:12:54,996 82 preys left at the 4140-th iteration.
+
+2022-12-12 15:12:54,996 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:12:55,632 82 preys left at the 4160-th iteration.
+
+2022-12-12 15:12:55,633 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:12:56,277 82 preys left at the 4180-th iteration.
+
+2022-12-12 15:12:56,277 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:12:56,907 81 preys left at the 4200-th iteration.
+
+2022-12-12 15:12:56,908 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:12:56,908 Increasing communication channel's size by 1; it's now: 45.
+
+2022-12-12 15:12:56,908 Message board size: 3.
+
+2022-12-12 15:12:56,908 Message board messages: [Prey 209, Prey 166, Prey 98].
+
+2022-12-12 15:12:57,540 81 preys left at the 4220-th iteration.
+
+2022-12-12 15:12:57,540 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:12:58,293 80 preys left at the 4240-th iteration.
+
+2022-12-12 15:12:58,293 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:12:58,958 80 preys left at the 4260-th iteration.
+
+2022-12-12 15:12:58,958 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:00,161 80 preys left at the 4280-th iteration.
+
+2022-12-12 15:13:00,162 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:01,306 77 preys left at the 4300-th iteration.
+
+2022-12-12 15:13:01,306 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:01,306 Increasing communication channel's size by 1; it's now: 46.
+
+2022-12-12 15:13:01,306 Message board size: 2.
+
+2022-12-12 15:13:01,306 Message board messages: [Prey 23, Prey 218].
+
+2022-12-12 15:13:02,072 77 preys left at the 4320-th iteration.
+
+2022-12-12 15:13:02,072 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:02,711 77 preys left at the 4340-th iteration.
+
+2022-12-12 15:13:02,711 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:03,810 77 preys left at the 4360-th iteration.
+
+2022-12-12 15:13:03,810 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:04,430 77 preys left at the 4380-th iteration.
+
+2022-12-12 15:13:04,430 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:06,879 76 preys left at the 4400-th iteration.
+
+2022-12-12 15:13:06,879 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:06,879 Increasing communication channel's size by 1; it's now: 47.
+
+2022-12-12 15:13:06,879 Message board size: 5.
+
+2022-12-12 15:13:06,880 Message board messages: [Prey 8, Prey 40, Prey 23, Prey 12, Prey 66].
+
+2022-12-12 15:13:07,644 76 preys left at the 4420-th iteration.
+
+2022-12-12 15:13:07,644 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:08,246 76 preys left at the 4440-th iteration.
+
+2022-12-12 15:13:08,246 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:09,721 76 preys left at the 4460-th iteration.
+
+2022-12-12 15:13:09,721 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:10,406 76 preys left at the 4480-th iteration.
+
+2022-12-12 15:13:10,406 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:11,033 76 preys left at the 4500-th iteration.
+
+2022-12-12 15:13:11,033 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:11,033 Increasing communication channel's size by 1; it's now: 48.
+
+2022-12-12 15:13:11,033 Message board size: 7.
+
+2022-12-12 15:13:11,033 Message board messages: [Prey 66, Prey 23, Prey 8, Prey 12, Prey 40, Prey 220, Prey 31].
+
+2022-12-12 15:13:12,175 76 preys left at the 4520-th iteration.
+
+2022-12-12 15:13:12,175 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:13,704 76 preys left at the 4540-th iteration.
+
+2022-12-12 15:13:13,704 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:14,719 75 preys left at the 4560-th iteration.
+
+2022-12-12 15:13:14,719 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:15,321 75 preys left at the 4580-th iteration.
+
+2022-12-12 15:13:15,321 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:16,014 75 preys left at the 4600-th iteration.
+
+2022-12-12 15:13:16,014 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:16,014 Increasing communication channel's size by 1; it's now: 49.
+
+2022-12-12 15:13:16,015 Message board size: 7.
+
+2022-12-12 15:13:16,015 Message board messages: [Prey 66, Prey 149, Prey 12, Prey 8, Prey 23, Prey 40, Prey 220].
+
+2022-12-12 15:13:16,641 75 preys left at the 4620-th iteration.
+
+2022-12-12 15:13:16,641 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:17,264 74 preys left at the 4640-th iteration.
+
+2022-12-12 15:13:17,264 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:17,867 73 preys left at the 4660-th iteration.
+
+2022-12-12 15:13:17,867 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:18,595 73 preys left at the 4680-th iteration.
+
+2022-12-12 15:13:18,595 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:19,173 71 preys left at the 4700-th iteration.
+
+2022-12-12 15:13:19,173 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:19,174 Increasing communication channel's size by 1; it's now: 50.
+
+2022-12-12 15:13:19,174 Message board size: 2.
+
+2022-12-12 15:13:19,174 Message board messages: [Prey 23, Prey 40].
+
+2022-12-12 15:13:19,765 71 preys left at the 4720-th iteration.
+
+2022-12-12 15:13:19,765 Fittest predator: Predator 3; Eaten = 18 .
+
+2022-12-12 15:13:20,356 70 preys left at the 4740-th iteration.
+
+2022-12-12 15:13:20,356 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:21,114 69 preys left at the 4760-th iteration.
+
+2022-12-12 15:13:21,114 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:21,702 69 preys left at the 4780-th iteration.
+
+2022-12-12 15:13:21,702 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:22,283 69 preys left at the 4800-th iteration.
+
+2022-12-12 15:13:22,283 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:22,283 Increasing communication channel's size by 1; it's now: 51.
+
+2022-12-12 15:13:22,283 Message board size: 2.
+
+2022-12-12 15:13:22,283 Message board messages: [Prey 154, Prey 60].
+
+2022-12-12 15:13:23,115 68 preys left at the 4820-th iteration.
+
+2022-12-12 15:13:23,115 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:24,131 67 preys left at the 4840-th iteration.
+
+2022-12-12 15:13:24,132 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:24,700 67 preys left at the 4860-th iteration.
+
+2022-12-12 15:13:24,700 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:25,767 66 preys left at the 4880-th iteration.
+
+2022-12-12 15:13:25,767 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:26,364 66 preys left at the 4900-th iteration.
+
+2022-12-12 15:13:26,364 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:26,364 Increasing communication channel's size by 1; it's now: 52.
+
+2022-12-12 15:13:26,364 Message board size: 0.
+
+2022-12-12 15:13:26,364 Message board messages: [].
+
+2022-12-12 15:13:27,281 66 preys left at the 4920-th iteration.
+
+2022-12-12 15:13:27,281 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:28,167 66 preys left at the 4940-th iteration.
+
+2022-12-12 15:13:28,167 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:28,750 66 preys left at the 4960-th iteration.
+
+2022-12-12 15:13:28,750 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:29,774 66 preys left at the 4980-th iteration.
+
+2022-12-12 15:13:29,774 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:30,399 65 preys left at the 5000-th iteration.
+
+2022-12-12 15:13:30,399 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:30,399 Increasing communication channel's size by 1; it's now: 53.
+
+2022-12-12 15:13:30,399 Message board size: 0.
+
+2022-12-12 15:13:30,399 Message board messages: [].
+
+2022-12-12 15:13:31,049 65 preys left at the 5020-th iteration.
+
+2022-12-12 15:13:31,049 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:31,627 65 preys left at the 5040-th iteration.
+
+2022-12-12 15:13:31,627 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:32,238 65 preys left at the 5060-th iteration.
+
+2022-12-12 15:13:32,239 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:32,800 65 preys left at the 5080-th iteration.
+
+2022-12-12 15:13:32,800 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:33,357 64 preys left at the 5100-th iteration.
+
+2022-12-12 15:13:33,357 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:33,357 Increasing communication channel's size by 1; it's now: 54.
+
+2022-12-12 15:13:33,357 Message board size: 1.
+
+2022-12-12 15:13:33,357 Message board messages: [Prey 12].
+
+2022-12-12 15:13:33,961 63 preys left at the 5120-th iteration.
+
+2022-12-12 15:13:33,961 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:34,509 63 preys left at the 5140-th iteration.
+
+2022-12-12 15:13:34,509 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:35,054 63 preys left at the 5160-th iteration.
+
+2022-12-12 15:13:35,054 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:35,616 63 preys left at the 5180-th iteration.
+
+2022-12-12 15:13:35,616 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:36,177 63 preys left at the 5200-th iteration.
+
+2022-12-12 15:13:36,177 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:36,177 Increasing communication channel's size by 1; it's now: 55.
+
+2022-12-12 15:13:36,177 Message board size: 1.
+
+2022-12-12 15:13:36,177 Message board messages: [Prey 10].
+
+2022-12-12 15:13:36,739 63 preys left at the 5220-th iteration.
+
+2022-12-12 15:13:36,739 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:37,319 63 preys left at the 5240-th iteration.
+
+2022-12-12 15:13:37,320 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:37,872 63 preys left at the 5260-th iteration.
+
+2022-12-12 15:13:37,872 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:38,437 63 preys left at the 5280-th iteration.
+
+2022-12-12 15:13:38,437 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:39,008 63 preys left at the 5300-th iteration.
+
+2022-12-12 15:13:39,008 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:39,008 Increasing communication channel's size by 1; it's now: 56.
+
+2022-12-12 15:13:39,008 Message board size: 3.
+
+2022-12-12 15:13:39,008 Message board messages: [Prey 29, Prey 10, Prey 110].
+
+2022-12-12 15:13:39,589 62 preys left at the 5320-th iteration.
+
+2022-12-12 15:13:39,589 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:40,133 62 preys left at the 5340-th iteration.
+
+2022-12-12 15:13:40,133 Fittest predator: Predator 2; Eaten = 18 .
+
+2022-12-12 15:13:40,708 61 preys left at the 5360-th iteration.
+
+2022-12-12 15:13:40,709 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:41,298 61 preys left at the 5380-th iteration.
+
+2022-12-12 15:13:41,298 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:41,849 61 preys left at the 5400-th iteration.
+
+2022-12-12 15:13:41,849 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:41,849 Increasing communication channel's size by 1; it's now: 57.
+
+2022-12-12 15:13:41,849 Message board size: 1.
+
+2022-12-12 15:13:41,849 Message board messages: [Prey 87].
+
+2022-12-12 15:13:42,405 60 preys left at the 5420-th iteration.
+
+2022-12-12 15:13:42,405 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:42,954 60 preys left at the 5440-th iteration.
+
+2022-12-12 15:13:42,954 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:43,503 60 preys left at the 5460-th iteration.
+
+2022-12-12 15:13:43,504 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:44,049 60 preys left at the 5480-th iteration.
+
+2022-12-12 15:13:44,050 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:44,598 60 preys left at the 5500-th iteration.
+
+2022-12-12 15:13:44,599 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:44,599 Increasing communication channel's size by 1; it's now: 58.
+
+2022-12-12 15:13:44,599 Message board size: 1.
+
+2022-12-12 15:13:44,599 Message board messages: [Prey 10].
+
+2022-12-12 15:13:45,173 59 preys left at the 5520-th iteration.
+
+2022-12-12 15:13:45,173 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:45,747 59 preys left at the 5540-th iteration.
+
+2022-12-12 15:13:45,747 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:46,318 59 preys left at the 5560-th iteration.
+
+2022-12-12 15:13:46,318 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:46,888 59 preys left at the 5580-th iteration.
+
+2022-12-12 15:13:46,888 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:47,464 59 preys left at the 5600-th iteration.
+
+2022-12-12 15:13:47,464 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:47,464 Increasing communication channel's size by 1; it's now: 59.
+
+2022-12-12 15:13:47,464 Message board size: 2.
+
+2022-12-12 15:13:47,464 Message board messages: [Prey 27, Prey 38].
+
+2022-12-12 15:13:47,999 59 preys left at the 5620-th iteration.
+
+2022-12-12 15:13:47,999 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:48,537 59 preys left at the 5640-th iteration.
+
+2022-12-12 15:13:48,537 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:49,091 59 preys left at the 5660-th iteration.
+
+2022-12-12 15:13:49,092 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:49,644 59 preys left at the 5680-th iteration.
+
+2022-12-12 15:13:49,644 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:50,187 59 preys left at the 5700-th iteration.
+
+2022-12-12 15:13:50,187 Fittest predator: Predator 3; Eaten = 19 .
+
+2022-12-12 15:13:50,187 Increasing communication channel's size by 1; it's now: 60.
+
+2022-12-12 15:13:50,187 Message board size: 4.
+
+2022-12-12 15:13:50,187 Message board messages: [Prey 202, Prey 171, Prey 44, Prey 54].
+
+2022-12-12 15:13:50,726 57 preys left at the 5720-th iteration.
+
+2022-12-12 15:13:50,726 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:51,270 57 preys left at the 5740-th iteration.
+
+2022-12-12 15:13:51,271 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:51,805 56 preys left at the 5760-th iteration.
+
+2022-12-12 15:13:51,806 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:52,329 56 preys left at the 5780-th iteration.
+
+2022-12-12 15:13:52,329 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:52,875 55 preys left at the 5800-th iteration.
+
+2022-12-12 15:13:52,875 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:52,876 Increasing communication channel's size by 1; it's now: 61.
+
+2022-12-12 15:13:52,876 Message board size: 1.
+
+2022-12-12 15:13:52,876 Message board messages: [Prey 38].
+
+2022-12-12 15:13:53,405 54 preys left at the 5820-th iteration.
+
+2022-12-12 15:13:53,406 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:53,942 54 preys left at the 5840-th iteration.
+
+2022-12-12 15:13:53,942 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:54,472 54 preys left at the 5860-th iteration.
+
+2022-12-12 15:13:54,472 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:54,999 54 preys left at the 5880-th iteration.
+
+2022-12-12 15:13:55,000 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:55,539 54 preys left at the 5900-th iteration.
+
+2022-12-12 15:13:55,539 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:55,539 Increasing communication channel's size by 1; it's now: 62.
+
+2022-12-12 15:13:55,539 Message board size: 1.
+
+2022-12-12 15:13:55,540 Message board messages: [Prey 27].
+
+2022-12-12 15:13:56,069 54 preys left at the 5920-th iteration.
+
+2022-12-12 15:13:56,069 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:56,619 53 preys left at the 5940-th iteration.
+
+2022-12-12 15:13:56,619 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:57,169 53 preys left at the 5960-th iteration.
+
+2022-12-12 15:13:57,169 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:57,712 53 preys left at the 5980-th iteration.
+
+2022-12-12 15:13:57,712 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:58,232 53 preys left at the 6000-th iteration.
+
+2022-12-12 15:13:58,232 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:58,232 Increasing communication channel's size by 1; it's now: 63.
+
+2022-12-12 15:13:58,232 Message board size: 1.
+
+2022-12-12 15:13:58,232 Message board messages: [Prey 61].
+
+2022-12-12 15:13:58,758 52 preys left at the 6020-th iteration.
+
+2022-12-12 15:13:58,761 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:59,297 51 preys left at the 6040-th iteration.
+
+2022-12-12 15:13:59,297 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:13:59,844 51 preys left at the 6060-th iteration.
+
+2022-12-12 15:13:59,845 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:00,398 51 preys left at the 6080-th iteration.
+
+2022-12-12 15:14:00,401 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:00,950 51 preys left at the 6100-th iteration.
+
+2022-12-12 15:14:00,950 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:00,950 Increasing communication channel's size by 1; it's now: 64.
+
+2022-12-12 15:14:00,950 Message board size: 0.
+
+2022-12-12 15:14:00,950 Message board messages: [].
+
+2022-12-12 15:14:01,500 51 preys left at the 6120-th iteration.
+
+2022-12-12 15:14:01,500 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:02,053 51 preys left at the 6140-th iteration.
+
+2022-12-12 15:14:02,055 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:02,607 51 preys left at the 6160-th iteration.
+
+2022-12-12 15:14:02,607 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:03,160 51 preys left at the 6180-th iteration.
+
+2022-12-12 15:14:03,160 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:03,723 51 preys left at the 6200-th iteration.
+
+2022-12-12 15:14:03,723 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:03,723 Increasing communication channel's size by 1; it's now: 65.
+
+2022-12-12 15:14:03,723 Message board size: 1.
+
+2022-12-12 15:14:03,723 Message board messages: [Prey 227].
+
+2022-12-12 15:14:04,231 51 preys left at the 6220-th iteration.
+
+2022-12-12 15:14:04,231 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:04,776 50 preys left at the 6240-th iteration.
+
+2022-12-12 15:14:04,776 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:05,288 50 preys left at the 6260-th iteration.
+
+2022-12-12 15:14:05,288 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:05,795 50 preys left at the 6280-th iteration.
+
+2022-12-12 15:14:05,795 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:06,313 50 preys left at the 6300-th iteration.
+
+2022-12-12 15:14:06,313 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:06,314 Increasing communication channel's size by 1; it's now: 66.
+
+2022-12-12 15:14:06,314 Message board size: 1.
+
+2022-12-12 15:14:06,314 Message board messages: [Prey 217].
+
+2022-12-12 15:14:06,828 50 preys left at the 6320-th iteration.
+
+2022-12-12 15:14:06,829 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:07,333 50 preys left at the 6340-th iteration.
+
+2022-12-12 15:14:07,333 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:07,855 50 preys left at the 6360-th iteration.
+
+2022-12-12 15:14:07,855 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:08,372 50 preys left at the 6380-th iteration.
+
+2022-12-12 15:14:08,376 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:08,889 50 preys left at the 6400-th iteration.
+
+2022-12-12 15:14:08,889 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:08,889 Increasing communication channel's size by 1; it's now: 67.
+
+2022-12-12 15:14:08,889 Message board size: 1.
+
+2022-12-12 15:14:08,890 Message board messages: [Prey 239].
+
+2022-12-12 15:14:09,432 49 preys left at the 6420-th iteration.
+
+2022-12-12 15:14:09,433 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:09,977 49 preys left at the 6440-th iteration.
+
+2022-12-12 15:14:09,980 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:10,495 49 preys left at the 6460-th iteration.
+
+2022-12-12 15:14:10,495 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:10,996 49 preys left at the 6480-th iteration.
+
+2022-12-12 15:14:10,997 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:11,521 48 preys left at the 6500-th iteration.
+
+2022-12-12 15:14:11,521 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:11,521 Increasing communication channel's size by 1; it's now: 68.
+
+2022-12-12 15:14:11,521 Message board size: 2.
+
+2022-12-12 15:14:11,521 Message board messages: [Prey 243, Prey 58].
+
+2022-12-12 15:14:12,018 47 preys left at the 6520-th iteration.
+
+2022-12-12 15:14:12,018 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:12,529 47 preys left at the 6540-th iteration.
+
+2022-12-12 15:14:12,529 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:13,040 47 preys left at the 6560-th iteration.
+
+2022-12-12 15:14:13,043 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:13,558 46 preys left at the 6580-th iteration.
+
+2022-12-12 15:14:13,559 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:14,090 46 preys left at the 6600-th iteration.
+
+2022-12-12 15:14:14,090 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:14,090 Increasing communication channel's size by 1; it's now: 69.
+
+2022-12-12 15:14:14,090 Message board size: 2.
+
+2022-12-12 15:14:14,090 Message board messages: [Prey 247, Prey 249].
+
+2022-12-12 15:14:14,606 46 preys left at the 6620-th iteration.
+
+2022-12-12 15:14:14,607 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:15,125 46 preys left at the 6640-th iteration.
+
+2022-12-12 15:14:15,125 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:15,640 46 preys left at the 6660-th iteration.
+
+2022-12-12 15:14:15,640 Fittest predator: Predator 3; Eaten = 20 .
+
+2022-12-12 15:14:16,136 45 preys left at the 6680-th iteration.
+
+2022-12-12 15:14:16,136 Fittest predator: Predator 3; Eaten = 20 .
+
