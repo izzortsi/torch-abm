@@ -36,6 +36,8 @@ RADIUS_1 = RES_X//128
 RADIUS_2 = RES_X//32
 rng = np.random.default_rng()
 DISTANCE = lambda a1, a2: np.sqrt((a1.x - a2.x)**2 + (a1.y - a2.y)**2)
+
+
 # DISTANCE = lambda a1, a2: spd.cityblock(np.array([a1.x, a1.y]), np.array([a2.x, a2.y]))
  
 class Agent(object):
@@ -336,10 +338,11 @@ class PreyPredatorEnvironment(Environment):
 
 
 pygame.init()
+pygame.font.init()
 screen = pygame.display.set_mode((RES_X, RES_Y), flags = 0)
 screen.fill([0, 0, 0])
 env = PreyPredatorEnvironment(N_PREDATORS, N_PREYS)
-
+font = pygame.font.Font(pygame.font.get_default_font(), 18)
 quit_loop = False
 preys_left = dict()
 _iter = 0
@@ -369,13 +372,29 @@ while not quit_loop:
     frame_path = os.path.join(f"{frames_dir}", f"frame{_iter:04d}.png")
     xim.save(frame_path)
     # print(env.message_board.messages)
-
     pygame.surfarray.blit_array(screen, im)
+    if _iter >= 1:
+        text_surface = font.render(f"{preys_left[_iter]} preys left at the {_iter}-th iteration.",
+                                False, (255, 255, 255))                            
+        screen.blit(text_surface, (20, 20))      
+        text_surface = font.render(f"Fittest predator: {env.get_fittest_predator()}.",
+                                False, (255, 255, 255))        
+        screen.blit(text_surface, (20, 38))                    
     pygame.display.update()
+    # pygame.display.update()
     _iter += 1
     preys_left[_iter] = len(env.preys)
+        # text_surface = font.render(f"{preys_left[_iter]} preys left at the {_iter}-th iteration. \n \
+                            #    Fittest predator: {env.get_fittest_predator()}.", False, (255, 255, 255))
+        # text_surface = font.render(f"{preys_left[_iter]} preys left at the {_iter}-th iteration.", False, (255, 255, 255))                            
+        # screen.blit(text_surface, (20, 20))        
+        # pygame.display.update()
+  
+        # pass
     if _iter % 20 == 0:
-        
+        # text_surface = font.render(f"{preys_left[_iter]} preys left at the {_iter}-th iteration. \n \
+                            #    Fittest predator: {env.get_fittest_predator()}.", False, (255, 255, 255))
+        # screen.blit(text_surface, (20, 20))        
         print(f"{preys_left[_iter]} preys left at the {_iter}-th iteration.\n")
         logger.info(f"{preys_left[_iter]} preys left at the {_iter}-th iteration.\n")
         
