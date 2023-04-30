@@ -1,0 +1,342 @@
+2023-04-28 17:48:03,576 255 preys left at the 20-th iteration.
+
+2023-04-28 17:48:03,576 Fittest predator: Predator 2; Eaten = 1 .
+
+2023-04-28 17:48:04,732 249 preys left at the 40-th iteration.
+
+2023-04-28 17:48:04,732 Fittest predator: Predator 2; Eaten = 1 .
+
+2023-04-28 17:48:05,854 243 preys left at the 60-th iteration.
+
+2023-04-28 17:48:05,854 Fittest predator: Predator 50; Eaten = 2 .
+
+2023-04-28 17:48:06,945 240 preys left at the 80-th iteration.
+
+2023-04-28 17:48:06,945 Fittest predator: Predator 24; Eaten = 2 .
+
+2023-04-28 17:48:08,014 239 preys left at the 100-th iteration.
+
+2023-04-28 17:48:08,015 Fittest predator: Predator 24; Eaten = 2 .
+
+2023-04-28 17:48:08,015 Increasing communication channel's size by 1; it's now: 4.
+
+2023-04-28 17:48:08,015 Message board size: 9.
+
+2023-04-28 17:48:08,015 Message board messages: [Prey 30, Prey 141, Prey 40, Prey 11, Prey 82, Prey 118, Prey 169, Prey 87, Prey 177].
+
+2023-04-28 17:48:09,061 236 preys left at the 120-th iteration.
+
+2023-04-28 17:48:09,061 Fittest predator: Predator 24; Eaten = 2 .
+
+2023-04-28 17:48:10,104 235 preys left at the 140-th iteration.
+
+2023-04-28 17:48:10,104 Fittest predator: Predator 24; Eaten = 2 .
+
+2023-04-28 17:48:11,137 234 preys left at the 160-th iteration.
+
+2023-04-28 17:48:11,137 Fittest predator: Predator 24; Eaten = 2 .
+
+2023-04-28 17:48:12,178 233 preys left at the 180-th iteration.
+
+2023-04-28 17:48:12,178 Fittest predator: Predator 24; Eaten = 2 .
+
+2023-04-28 17:48:13,289 230 preys left at the 200-th iteration.
+
+2023-04-28 17:48:13,289 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:13,289 Increasing communication channel's size by 1; it's now: 5.
+
+2023-04-28 17:48:13,289 Message board size: 7.
+
+2023-04-28 17:48:13,289 Message board messages: [Prey 149, Prey 85, Prey 81, Prey 171, Prey 141, Prey 40, Prey 197].
+
+2023-04-28 17:48:14,323 226 preys left at the 220-th iteration.
+
+2023-04-28 17:48:14,324 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:15,313 225 preys left at the 240-th iteration.
+
+2023-04-28 17:48:15,313 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:16,367 225 preys left at the 260-th iteration.
+
+2023-04-28 17:48:16,367 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:17,406 225 preys left at the 280-th iteration.
+
+2023-04-28 17:48:17,406 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:18,462 225 preys left at the 300-th iteration.
+
+2023-04-28 17:48:18,462 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:18,462 Increasing communication channel's size by 1; it's now: 6.
+
+2023-04-28 17:48:18,462 Message board size: 6.
+
+2023-04-28 17:48:18,462 Message board messages: [Prey 149, Prey 204, Prey 44, Prey 103, Prey 37, Prey 91].
+
+2023-04-28 17:48:19,493 225 preys left at the 320-th iteration.
+
+2023-04-28 17:48:19,493 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:20,510 223 preys left at the 340-th iteration.
+
+2023-04-28 17:48:20,510 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:21,510 222 preys left at the 360-th iteration.
+
+2023-04-28 17:48:21,510 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:22,502 221 preys left at the 380-th iteration.
+
+2023-04-28 17:48:22,502 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:23,494 220 preys left at the 400-th iteration.
+
+2023-04-28 17:48:23,494 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:23,494 Increasing communication channel's size by 1; it's now: 7.
+
+2023-04-28 17:48:23,494 Message board size: 3.
+
+2023-04-28 17:48:23,494 Message board messages: [Prey 199, Prey 252, Prey 194].
+
+2023-04-28 17:48:24,481 220 preys left at the 420-th iteration.
+
+2023-04-28 17:48:24,481 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:25,468 217 preys left at the 440-th iteration.
+
+2023-04-28 17:48:25,468 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:26,441 216 preys left at the 460-th iteration.
+
+2023-04-28 17:48:26,441 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:27,410 215 preys left at the 480-th iteration.
+
+2023-04-28 17:48:27,411 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:28,404 215 preys left at the 500-th iteration.
+
+2023-04-28 17:48:28,404 Fittest predator: Predator 4; Eaten = 2 .
+
+2023-04-28 17:48:28,404 Increasing communication channel's size by 1; it's now: 8.
+
+2023-04-28 17:48:28,404 Message board size: 3.
+
+2023-04-28 17:48:28,404 Message board messages: [Prey 24, Prey 33, Prey 126].
+
+2023-04-28 17:48:29,379 213 preys left at the 520-th iteration.
+
+2023-04-28 17:48:29,380 Fittest predator: Predator 2; Eaten = 2 .
+
+2023-04-28 17:48:30,357 211 preys left at the 540-th iteration.
+
+2023-04-28 17:48:30,357 Fittest predator: Predator 2; Eaten = 2 .
+
+2023-04-28 17:48:31,314 211 preys left at the 560-th iteration.
+
+2023-04-28 17:48:31,314 Fittest predator: Predator 2; Eaten = 2 .
+
+2023-04-28 17:48:32,286 208 preys left at the 580-th iteration.
+
+2023-04-28 17:48:32,286 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:33,250 207 preys left at the 600-th iteration.
+
+2023-04-28 17:48:33,250 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:33,251 Increasing communication channel's size by 1; it's now: 9.
+
+2023-04-28 17:48:33,251 Message board size: 1.
+
+2023-04-28 17:48:33,251 Message board messages: [Prey 74].
+
+2023-04-28 17:48:34,248 206 preys left at the 620-th iteration.
+
+2023-04-28 17:48:34,248 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:35,248 206 preys left at the 640-th iteration.
+
+2023-04-28 17:48:35,249 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:36,213 206 preys left at the 660-th iteration.
+
+2023-04-28 17:48:36,213 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:37,176 206 preys left at the 680-th iteration.
+
+2023-04-28 17:48:37,176 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:38,146 205 preys left at the 700-th iteration.
+
+2023-04-28 17:48:38,146 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:38,146 Increasing communication channel's size by 1; it's now: 10.
+
+2023-04-28 17:48:38,146 Message board size: 6.
+
+2023-04-28 17:48:38,146 Message board messages: [Prey 192, Prey 172, Prey 63, Prey 141, Prey 97, Prey 255].
+
+2023-04-28 17:48:39,100 204 preys left at the 720-th iteration.
+
+2023-04-28 17:48:39,100 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:40,076 203 preys left at the 740-th iteration.
+
+2023-04-28 17:48:40,076 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:41,030 202 preys left at the 760-th iteration.
+
+2023-04-28 17:48:41,031 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:42,043 200 preys left at the 780-th iteration.
+
+2023-04-28 17:48:42,043 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:43,058 200 preys left at the 800-th iteration.
+
+2023-04-28 17:48:43,059 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:43,059 Increasing communication channel's size by 1; it's now: 11.
+
+2023-04-28 17:48:43,059 Message board size: 0.
+
+2023-04-28 17:48:43,059 Message board messages: [].
+
+2023-04-28 17:48:44,146 200 preys left at the 820-th iteration.
+
+2023-04-28 17:48:44,146 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:45,131 200 preys left at the 840-th iteration.
+
+2023-04-28 17:48:45,131 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:46,102 200 preys left at the 860-th iteration.
+
+2023-04-28 17:48:46,102 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:47,082 199 preys left at the 880-th iteration.
+
+2023-04-28 17:48:47,082 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:48,064 198 preys left at the 900-th iteration.
+
+2023-04-28 17:48:48,065 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:48,065 Increasing communication channel's size by 1; it's now: 12.
+
+2023-04-28 17:48:48,065 Message board size: 1.
+
+2023-04-28 17:48:48,065 Message board messages: [Prey 117].
+
+2023-04-28 17:48:49,036 197 preys left at the 920-th iteration.
+
+2023-04-28 17:48:49,036 Fittest predator: Predator 15; Eaten = 3 .
+
+2023-04-28 17:48:50,003 196 preys left at the 940-th iteration.
+
+2023-04-28 17:48:50,003 Fittest predator: Predator 4; Eaten = 3 .
+
+2023-04-28 17:48:50,965 196 preys left at the 960-th iteration.
+
+2023-04-28 17:48:50,965 Fittest predator: Predator 4; Eaten = 3 .
+
+2023-04-28 17:48:51,950 195 preys left at the 980-th iteration.
+
+2023-04-28 17:48:51,950 Fittest predator: Predator 4; Eaten = 3 .
+
+2023-04-28 17:48:52,937 195 preys left at the 1000-th iteration.
+
+2023-04-28 17:48:52,937 Fittest predator: Predator 4; Eaten = 3 .
+
+2023-04-28 17:48:52,937 Increasing communication channel's size by 1; it's now: 13.
+
+2023-04-28 17:48:52,937 Message board size: 0.
+
+2023-04-28 17:48:52,937 Message board messages: [].
+
+2023-04-28 17:48:53,936 194 preys left at the 1020-th iteration.
+
+2023-04-28 17:48:53,936 Fittest predator: Predator 4; Eaten = 3 .
+
+2023-04-28 17:48:54,887 193 preys left at the 1040-th iteration.
+
+2023-04-28 17:48:54,887 Fittest predator: Predator 4; Eaten = 3 .
+
+2023-04-28 17:48:55,836 190 preys left at the 1060-th iteration.
+
+2023-04-28 17:48:55,836 Fittest predator: Predator 4; Eaten = 3 .
+
+2023-04-28 17:48:56,796 189 preys left at the 1080-th iteration.
+
+2023-04-28 17:48:56,796 Fittest predator: Predator 4; Eaten = 3 .
+
+2023-04-28 17:48:57,737 188 preys left at the 1100-th iteration.
+
+2023-04-28 17:48:57,737 Fittest predator: Predator 4; Eaten = 4 .
+
+2023-04-28 17:48:57,737 Increasing communication channel's size by 1; it's now: 14.
+
+2023-04-28 17:48:57,737 Message board size: 3.
+
+2023-04-28 17:48:57,737 Message board messages: [Prey 93, Prey 160, Prey 237].
+
+2023-04-28 17:48:58,706 186 preys left at the 1120-th iteration.
+
+2023-04-28 17:48:58,706 Fittest predator: Predator 4; Eaten = 4 .
+
+2023-04-28 17:48:59,663 186 preys left at the 1140-th iteration.
+
+2023-04-28 17:48:59,663 Fittest predator: Predator 4; Eaten = 4 .
+
+2023-04-28 17:49:00,626 185 preys left at the 1160-th iteration.
+
+2023-04-28 17:49:00,626 Fittest predator: Predator 4; Eaten = 5 .
+
+2023-04-28 17:49:01,614 185 preys left at the 1180-th iteration.
+
+2023-04-28 17:49:01,614 Fittest predator: Predator 4; Eaten = 5 .
+
+2023-04-28 17:49:02,588 184 preys left at the 1200-th iteration.
+
+2023-04-28 17:49:02,588 Fittest predator: Predator 4; Eaten = 5 .
+
+2023-04-28 17:49:02,588 Increasing communication channel's size by 1; it's now: 15.
+
+2023-04-28 17:49:02,588 Message board size: 1.
+
+2023-04-28 17:49:02,588 Message board messages: [Prey 240].
+
+2023-04-28 17:49:03,567 183 preys left at the 1220-th iteration.
+
+2023-04-28 17:49:03,568 Fittest predator: Predator 4; Eaten = 5 .
+
+2023-04-28 17:49:04,547 183 preys left at the 1240-th iteration.
+
+2023-04-28 17:49:04,547 Fittest predator: Predator 4; Eaten = 5 .
+
+2023-04-28 17:49:05,506 182 preys left at the 1260-th iteration.
+
+2023-04-28 17:49:05,506 Fittest predator: Predator 4; Eaten = 5 .
+
+2023-04-28 17:49:06,439 177 preys left at the 1280-th iteration.
+
+2023-04-28 17:49:06,439 Fittest predator: Predator 4; Eaten = 6 .
+
+2023-04-28 17:49:07,336 177 preys left at the 1300-th iteration.
+
+2023-04-28 17:49:07,336 Fittest predator: Predator 4; Eaten = 6 .
+
+2023-04-28 17:49:07,336 Increasing communication channel's size by 1; it's now: 16.
+
+2023-04-28 17:49:07,337 Message board size: 2.
+
+2023-04-28 17:49:07,337 Message board messages: [Prey 122, Prey 253].
+
+2023-04-28 17:49:08,498 176 preys left at the 1320-th iteration.
+
+2023-04-28 17:49:08,498 Fittest predator: Predator 4; Eaten = 6 .
+
