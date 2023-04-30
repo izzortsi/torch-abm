@@ -1,4 +1,3 @@
-
 #%%
 import pygame
 import random
@@ -10,7 +9,7 @@ pygame.init()
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 NUM_CHARACTERS = 10
-PERCEPTUAL_RADIUS_FACTOR = 6
+PERCEPTUAL_RADIUS_FACTOR = 3
 SPEED_FACTOR = 0.5
 MIN_LEVEL = 1
 MAX_LEVEL = 10
@@ -44,9 +43,10 @@ class Character:
                                     power=random.randint(1, 10),
                                     magic=random.randint(1, 10),
                                     speed=random.randint(1, 10),
-                                    perception=random.randint(1, 10)
+                                    perception=random.randint(CHARACTER_RADIUS, 10)
                                     )
-        self._perception_radius = max(1, int(self.attributes.perception * PERCEPTUAL_RADIUS_FACTOR))
+        # self._perception_radius = max(1, int(self.attributes.perception * PERCEPTUAL_RADIUS_FACTOR)) + self.level
+        self._perception_radius = max(1, int((self.attributes.perception + self.level) * PERCEPTUAL_RADIUS_FACTOR))
         self._effective_speed = max(1, int(self.attributes.speed * SPEED_FACTOR))
         self.x = x
         self.y = y
@@ -58,15 +58,17 @@ class Character:
         return self._perception_radius
     @perception_radius.getter
     def perception_radius(self):
-        return max(1, int(self.attributes.perception * PERCEPTUAL_RADIUS_FACTOR))
+        return max(1, int((self.attributes.perception + self.level) * PERCEPTUAL_RADIUS_FACTOR))
     @property
     def effective_speed(self):
         return self._effective_speed
     @effective_speed.getter
     def effective_speed(self):
         return max(1, int(self.attributes.speed * SPEED_FACTOR))
+    
     def get_distance_to(self, other_character):
      return ((self.x - other_character.x) ** 2 + (self.y - other_character.y) ** 2) ** 0.5
+    
     def move_randomly(self):
         # print(-self.effective_speed, self.effective_speed)
         self.x += random.randint(-self.effective_speed, self.effective_speed)
@@ -102,8 +104,9 @@ class Character:
             self.y = 0
         elif self.y > SCREEN_HEIGHT:
             self.y = SCREEN_HEIGHT
+
     def roll_dice(self):
-        return random.randint(1, 10)
+        return random.randint(1, 6)
 
     def attack_power(self):
         power_dice_roll = self.roll_dice()
@@ -149,7 +152,8 @@ class Character:
         pygame.draw.circle(screen, color, (int(self.x), int(self.y)), CHARACTER_RADIUS)
         # Create a surface with an alpha channel
         perception_radius_surface = pygame.Surface((2*self.perception_radius, 2*self.perception_radius), pygame.SRCALPHA)
-        pygame.draw.circle(perception_radius_surface, (128, 128, 128, 128), (self.perception_radius, self.perception_radius), self.perception_radius)
+        pygame.draw.circle(perception_radius_surface, (128, 128, 128, 32), (self.perception_radius, self.perception_radius), self.perception_radius)
+        # screen.blit(perception_radius_surface, (int(self.x - self.perception_radius), int(self.y - self.perception_radius)))
         screen.blit(perception_radius_surface, (int(self.x - self.perception_radius), int(self.y - self.perception_radius)))
 
         font = pygame.font.Font('freesansbold.ttf', 16)
@@ -195,7 +199,7 @@ while True:
                             # character.speed = random.randint(1, MAX_SPEED)
                             # character.perception_radius = character.level * PERCEPTUAL_RADIUS_FACTOR
                     elif distance >= 2*CHARACTER_RADIUS and distance < character.perception_radius:
-                        if character.level > other_character.level:
+                        if character.level >= other_character.level:
                             character.move_towards(other_character)
                         elif character.level < other_character.level:
                             character.move_away_from(other_character)
