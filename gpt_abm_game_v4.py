@@ -6,15 +6,15 @@ from dataclasses import dataclass
 
 pygame.init()
 
-SCREEN_WIDTH = 1280
-SCREEN_HEIGHT = 1280
-NUM_CHARACTERS = 120
+SCREEN_WIDTH = 780
+SCREEN_HEIGHT = 780
+NUM_CHARACTERS = 16
 PERCEPTUAL_RADIUS_FACTOR = 3
 SPEED_FACTOR = 0.5
 MIN_LEVEL = 1
 MAX_LEVEL = 10
 NUM_LIVES = 3
-CHARACTER_RADIUS = 2
+CHARACTER_RADIUS = 3
 NL = '\n'
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Battling Simulation Game")
@@ -97,13 +97,13 @@ class Character:
 
     def check_bounds(self):
         if self.x < 0:
-            self.x = 0
+            self.x = SCREEN_WIDTH + self.x
         elif self.x > SCREEN_WIDTH:
-            self.x = SCREEN_WIDTH
+            self.x = SCREEN_WIDTH - self.x
         if self.y < 0:
-            self.y = 0
+            self.y = SCREEN_HEIGHT + self.y
         elif self.y > SCREEN_HEIGHT:
-            self.y = SCREEN_HEIGHT
+            self.y = SCREEN_HEIGHT - self.y
 
     def roll_dice(self):
         return random.randint(1, 6)
@@ -156,10 +156,12 @@ class Character:
         # screen.blit(perception_radius_surface, (int(self.x - self.perception_radius), int(self.y - self.perception_radius)))
         screen.blit(perception_radius_surface, (int(self.x - self.perception_radius), int(self.y - self.perception_radius)))
 
-        font = pygame.font.Font('freesansbold.ttf', 16)
+        font = pygame.font.Font('freesansbold.ttf', 12)
         # text = font.render(str(self.id) + ": " + str(self.level), True, (0, 0, 0))
         
-        text = font.render(f"{self.id}: {self.level}", True, (0, 0, 0))
+        # text = font.render(f"id: {self.id};lv: {self.level};lives: {self.lives}", True, (0, 0, 0))
+        # text = font.render(f"{self.id}; {self.level}; {self.lives}", True, (0, 0, 0))
+        text = font.render(f"{self.level}; {self.lives}", True, (0, 0, 0))
         text_rect = text.get_rect(center=(int(self.x), int(self.y - 15)))
         screen.blit(text, text_rect)
 
